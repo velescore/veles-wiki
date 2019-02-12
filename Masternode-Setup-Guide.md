@@ -1,4 +1,4 @@
-# Veles Masternode Setup Guide (Ubuntu 16.04)
+Ubuntu 16.04
 
 This is a step-by step tutorial on how to to set-up Veles Masternode on a Linux Server running Ubuntu 16.04, taking advantage of [Veles Masternode Installer](https://github.com/Velescore/veles-masternode-install) script.
 
