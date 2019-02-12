@@ -1,7 +1,10 @@
+# Veles Masternode Setup Guide (Ubuntu 16.04)
 
-# Veles Masternode Setup Guide (Manual install, Ubuntu 16.04)
+The easiest way to setup Veles Core masternode is use our [Masternode Installation Script](https://github.com/Velescore/veles-masternode-install).
 
-This guide will assist you in setting up a Veles Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
+***
+
+However, this guide will assist you in manually setting up a Veles Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
 If you require further assistance contact the support team @ [Discord](https://discord.gg/P528fGg)
 ***
