@@ -130,7 +130,7 @@ Click "File Save"
 * Close out of the wallet and reopen Wallet
 * Click on the Masternodes tab "My masternodes"
 * Check if your Masternode collateral transaction have 16 confirmations.
-* Click start all in the masternodes tab
+* Click start alias in the masternodes tab
 
 ![Example-create](https://i.imgur.com/ENNcneg.png)
 
