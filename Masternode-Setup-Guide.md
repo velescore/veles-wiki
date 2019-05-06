@@ -16,7 +16,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 ## Requirements
 1) **2,000 Veles coins.**
-2) **VPS running Linux (one of mentioned in strat of guide)**
+2) **VPS running Linux (one of mentioned in start of guide)**
 3) **A Windows local wallet.**
 4) **An SSH client such as [BitVise](https://dl.bitvise.com/BvSshClient-Inst.exe)**
 ***
@@ -42,7 +42,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 2***
-* Copy the root password from the VULTR server page.
+* Copy the root password from your VPS .
 ![Example-RootPass](https://i.imgur.com/JnXQXav.png)
 ***
 
