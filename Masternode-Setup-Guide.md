@@ -15,7 +15,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * **CentOS**
 ***
 ## Requirements
-1) **2,000 Veles coins.**
+1) **500 Veles coins.**
 2) **VPS running Linux (one of mentioned in start of guide)**
 3) **A Windows local wallet.**
 4) **An SSH client such as [BitVise](https://dl.bitvise.com/BvSshClient-Inst.exe)**
@@ -84,7 +84,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***Step 2***
 * Generate new address through debug console with command 
 `getnewaddress "" "legacy"` 
-* Send exactly 2,000 VLS coins to the address you generated on your local wallet.
+* Send exactly 500 VLS coins to the address you generated on your local wallet.
 ![Example-console](https://i.imgur.com/4AYiguN.png?1)
 ***
 
