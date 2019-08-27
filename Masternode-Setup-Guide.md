@@ -18,7 +18,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 1) **500 Veles coins.**
 2) **VPS running Linux (one of mentioned in start of guide)**
 3) **A Windows local wallet.**
-4) **An SSH client such as [BitVise](https://dl.bitvise.com/BvSshClient-Inst.exe)**
+4) **An SSH client such as [PuTTY](https://the.earth.li/~sgtatham/putty/0.72/w64/putty-64bit-0.72-installer.msi) or [BitVise](https://dl.bitvise.com/BvSshClient-Inst.exe)**
 ***
 ## Contents
 * **Section A**: Downloading and installing BitVise.
