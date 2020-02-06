@@ -38,22 +38,26 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***
 * Open the bitvise application and fill in the "Hostname" box with the IP of your VPS.
+
 ![Example-PuttyInstaller](https://i.imgur.com/vkN1alC.png)
 ***
 
 ***Step 2***
 * Copy the root password from your VPS .
+
 ![Example-RootPass](https://i.imgur.com/JnXQXav.png)
 ***
 
 ***Step 3***
 * Type "root" as the login/username.
+
 ![Example-Root](https://i.imgur.com/11GMkvA.png)
 ***
 
 ***Step 4*** 
 * Paste the password into the Bitvise terminal by right clicking (it will not show the password so just press enter)
-*![Example-RootPassEnter](https://i.imgur.com/zVhOAKu.png)
+
+![Example-RootPassEnter](https://i.imgur.com/zVhOAKu.png)
 ***
 
 ***Step 5*** 
