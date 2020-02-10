@@ -3,6 +3,8 @@
 
 If you are using Linux, there are a variety of tools that you can use depending on your distribution. Your desktop environment or network manager might also include connection utilities. The most universal way of connecting, however, is to just use the OpenVPN software.
 
+If you require further assistance contact the support team @ [Discord](https://discord.gg/P528fGg)
+
 ## Requirements
 1) Install OpenVPN Client
 2) Download Veles OpenVPN config
