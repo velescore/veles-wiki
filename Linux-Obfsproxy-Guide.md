@@ -45,10 +45,12 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***Step 1***
 * Now, you can connect to the VPN by just turning on ObfsProxy and pointing the OpenVPN command to the client configuration file:  
 `sudo obfsproxy scramblesuit --dest 80.211.132.243:21343 --password=SSSTIZ3LG5SSS43OMSSSM4LKGQFASSSS client 127.0.0.1:21337`    
-`sudo openvpn --config /etc/openvpn/client/veles-shield.ovpn`
-***
+`sudo openvpn --config /etc/openvpn/client/veles-shield.ovpn`  
+
 > The destination IP address (*in this case --dest 80.211.132.243) should be replaced with IP of masternode you are connecting.  
-> The password will be used only in pre-alpha testing phase. In future instead of password will be used random string.
+> The password will be used only in pre-alpha testing phase. In future instead of password will be used random string.  
+
+***
    
 ### Section D: Test VPN Connection
 
