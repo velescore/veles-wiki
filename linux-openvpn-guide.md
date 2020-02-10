@@ -18,34 +18,34 @@ If you are using Linux, there are a variety of tools that you can use depending 
 ### Section A: Download and Install OpenVPN
 
 ***Step 1***
-* On Ubuntu or Debian, you can install it by typing:
-`sudo apt-get update`
-`sudo apt-get install openvpn`
-* On CentOS you can enable the EPEL repositories and then install it by typing:
-`sudo yum install epel-release`
-`sudo yum install openvpn`
-* On Gentoo you can install it by typing:
-`emerge -v net-vpn/openvpn`
-* On Arch Linux you can install it by typing:
-`pacman -S openvpn`
+* On Ubuntu or Debian, you can install it by typing:  
+`sudo apt-get update`  
+`sudo apt-get install openvpn`  
+* On CentOS you can enable the EPEL repositories and then install it by typing:  
+`sudo yum install epel-release`  
+`sudo yum install openvpn`  
+* On Gentoo you can install it by typing:  
+`emerge -v net-vpn/openvpn`  
+* On Arch Linux you can install it by typing:  
+`pacman -S openvpn`  
 ***
 
 ### Section B: Configure OpenVPN 
 
 ***Step 1***
-* Download Veles configuration file and move to it's repository by typing:
-`wget https://explorer.veles.network/dapi/getOpenVPNConfig`
+* Download Veles configuration file and move to it's repository by typing:  
+`wget https://explorer.veles.network/dapi/getOpenVPNConfig`  
 `sudo mv veles.ovpn /etc/openvpn/client/`
 ***
 
 ***Step 2***
-* Setup DNS to stay protected against DNS leaks use this command ( **IP used in this case serve only as example and need to replaced by one from new Masternode list** )
+* Setup DNS to stay protected against DNS leaks use this command ( **IP used in this case serve only as example and need to replaced by one from new Masternode list** ):  
 `echo -e "#Veles decentralized DNS\nnameserver 111.111.111.111" | sudo tee -a /etc/resolv.conf >> /dev/null`
 ***
 
 ### Section C: Connect to Veles d-VPN
 ***Step 1***
-* Now you can connect to the Veles d-VPN by just pointing the openvpn command to the client configuration file:
+* Now you can connect to the Veles d-VPN by just pointing the openvpn command to the client configuration file:  
 `openvpn --config /etc/openvpn/client/veles.ovpn`
 ***
 
