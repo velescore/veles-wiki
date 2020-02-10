@@ -23,27 +23,28 @@ If you require further assistance contact the support team @ [Discord](https://d
 * On Ubuntu or Debian, you can install it just as you did on the server by typing:  
 `sudo apt-get install obfsproxy`  
 * On CentOS you can install Obfsproxy by typing:  
-`yum install make automake gcc python-pip python-devel libyaml-devel`
-`pip install obfsproxy`  
-* On Arch Linux you can install Obfsproxy from AUR package by typing:  
+`yum install make automake gcc python-pip python-devel libyaml-devel`  
+`pip install obfsproxy`    
+* On Arch Linux you can install Obfsproxy from AUR package by typing:    
 `yay --install obfsproxy-git` 
 ***
 
 ### Section B: Configure Obfsproxy
 
 ***Step 1***
-* Download Veles Shielded configuration file by typing:  
+* Download Veles Shielded configuration file by typing:    
 `wget https://explorer.veles.network/dapi/getShieldedOpenVPNConfig`  
 ***
   
 ***Step 2***
-* Move downloaded config to it's repositories by typing:  
+* Move downloaded config to it's repositories by typing:    
 `sudo mv shielded-veles.ovpn /etc/openvpn/client/`
 ***
 
 ### Section C: Connect Veles d-VPN with Obfsproxy
 ***Step 1***
-`sudo obfsproxy scramblesuit --dest 80.211.132.243:21343 --password=SSSTIZ3LG5SSS43OMSSSM4LKGQFASSSS client 127.0.0.1:21337`  
+* Now, you can connect to the VPN by just turning on ObfsProxy and pointing the OpenVPN command to the client configuration file:  
+`sudo obfsproxy scramblesuit --dest 80.211.132.243:21343 --password=SSSTIZ3LG5SSS43OMSSSM4LKGQFASSSS client 127.0.0.1:21337`    
 `sudo openvpn --config /etc/openvpn/client/veles-shield.ovpn`
 ***
 
