@@ -5,7 +5,7 @@ If you are using Linux, there are a variety of tools that you can use depending 
 
 ## Requirements
 1) Install OpenVPN Client
-2) Download Veles config
+2) Download Veles OpenVPN config
 ***
 
 ## Contents
