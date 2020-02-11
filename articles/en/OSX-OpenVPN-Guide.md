@@ -20,7 +20,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***
 * Tunnelblick is a free, open source OpenVPN client for Mac OS X. You can download the latest disk image from the [Tunnelblick Downloads page](https://tunnelblick.net/downloads.html). Double-click the downloaded **.dmg** file and follow the prompts to install:  
-`https://tunnelblick.net/downloads.html`  
+https://tunnelblick.net/downloads.html  
 
 > Towards the end of the installation process, Tunnelblick will ask if you have any configuration files. It can be easier to answer **No** and let Tunnelblick finish. 
 
