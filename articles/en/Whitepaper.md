@@ -1,9 +1,8 @@
+Date:       Dec 9 2018,
+Version:    1.01
+Authors:    @AltcoinBaggins ,@mdfkbtc
+
 # Veles: Open decentralized VPN and anonymous networking ecosystem
-
-* ### Dec 9 2018,
-* ### Version 1.01
-* ### Authors: @AltcoinBaggins ,@mdfkbtc
-
 
 ## **Abstract**
 
