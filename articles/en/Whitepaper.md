@@ -1,5 +1,5 @@
 Name:           Veles Core Whitepaper
-Image:          /images/logo/veles256.png
+Image:          https://veles.network/images/wp/veles-whitepaper-thumb.png
 Date:           Dec 9 2018,
 Version:        1.01
 Authors:        @AltcoinBaggins @mdfkbtc
