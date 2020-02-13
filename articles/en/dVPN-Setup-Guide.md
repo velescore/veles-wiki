@@ -8,6 +8,9 @@ Authors:        @AltcoinBaggins @mdfkbtc
 
 This page provides a general overview of the dVPN setup tutorials across multiple platforms.
 
+!!! caution "Experimental Warning"
+    These guides correspond to the current state of (pre-alpha) decentralized VPN and I will be updated according to the development process
+
 ## Supported Platforms
 * **Android**
 * **iOS**
