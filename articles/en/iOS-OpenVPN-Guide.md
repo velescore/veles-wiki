@@ -1,13 +1,12 @@
-Name:           Veles Linux OpenVPN Guide
-Image:          https://www.veles.network/images/download/linux-wallet.png
+Name:           Veles iOS OpenVPN Guide
+Image:          https://www.veles.network/images/download/mac-wallet.png
 Date:           Feb 12 2020,
 Version: 		1.01
 Syntax:         Markdown
 Authors:        @AltcoinBaggins @mdfkbtc
 
-# Linux OpenVPN Guide 
-
-If you are using Linux, there are a variety of tools that you can use depending on your distribution. Your desktop environment or network manager might also include connection utilities. The most universal way of connecting, however, is to just use the OpenVPN software.
+# iOS OpenVPN Guide 
+This will guide you through the process of installing and using OpenVPN on the iOS platform.  
 
 If you require further assistance contact the support team @ [Discord](https://discord.gg/P528fGg)
 
@@ -26,42 +25,42 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* On Ubuntu or Debian, you can install it by typing:  
-`sudo apt-get update`  
-`sudo apt-get install openvpn`  
-* On CentOS you can enable the EPEL repositories and then install it by typing:  
-`sudo yum install epel-release`  
-`sudo yum install openvpn`  
-* On Gentoo you can install it by typing:  
-`emerge -v net-vpn/openvpn`  
-* On Arch Linux you can install it by typing:  
-`pacman -S openvpn`  
+* From the App Store, search for and install **OpenVPN Connect**, the official iOS OpenVPN client application.
 
 ***
 
-### Section B: Configure OpenVPN 
+### Section B: Configure OpenVPN
 
 ***Step 1***  
 
-* Download Veles configuration file and move to it's repository by typing:  
-`wget https://explorer.veles.network/dapi/getOpenVPNConfig`  
-`sudo mv veles.ovpn /etc/openvpn/client/`
+* After installing OpenVPN Connect, download [Veles OpenVPN config file](https://explorer.veles.network/dapi/getOpenVPNConfig) and open with **OpenVPN Connect** by pressing **Copy to OpenVPN**.  
+[https://explorer.veles.network/dapi/getOpenVPNConfig](https://explorer.veles.network/dapi/getOpenVPNConfig)
 
 ***
 
 ***Step 2***  
 
-* Setup DNS to stay protected against DNS leaks use this command ( **IP used in this case serve only as example and need to replaced by one from new Masternode list** ):  
-`echo -e "#Veles decentralized DNS\nnameserver 111.111.111.111" | sudo tee -a /etc/resolv.conf >> /dev/null`
+* Import profile file into OpenVPN Connect by pressing **Add**.
+
+!!! tip "User Tip"
+	You should see **"Profile successfully imported"**.
 
 ***
 
-### Section C: Connect to Veles d-VPN
+***Step 3***  
+
+* Now just **Add** profile to your OpenVPN Connect.
+
+***
+
+### Section C: Connect to Veles d-VPN 
 
 ***Step 1***  
 
-* Now you can connect to the Veles d-VPN by just pointing the openvpn command to the client configuration file:  
-`openvpn --config /etc/openvpn/client/veles.ovpn`
+* Start the connection by sliding the Connect button to the **On** position.  
+
+!!! tip "User Tip"
+	Disconnect by sliding the same button to **Off**.  
 
 ***
 
