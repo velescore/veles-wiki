@@ -8,43 +8,50 @@ Authors:        @AltcoinBaggins @mdfkbtc
 
 This page provides a general overview of the dVPN setup tutorials across multiple platforms.
 
-!!! caution "Experimental Warning"
-    These guides correspond to the current state of (pre-alpha) decentralized VPN and I will be updated according to the development process
+!!! tip "Development Tip"
+	If you encounter some misleading steps or typos in the tutorials, you can report it on our Discord. If you want to contribute or even fix bugs / misleading steps by yourself it's recommended to read the Veles Wiki Contributing documentation](https://github.com/mdfkbtc/veles-wiki/blob/master/docs/CONTRIBUTING.md) and [Veles Wiki documentation](https://github.com/mdfkbtc/veles-wiki/blob/master/docs/README.md)
 
 ## Supported Platforms
-* **Android**
-* **iOS**
-* **Linux**
-* **OSX**
-* **Windows**
+  
+**PC/Notebooks** | **Phone/Tablet**
+---------------- | ----------------
+ **Linux**       |  **Android**
+ **Windows**     |  **iOS** 
+ **OSX**         | 
 
-## Android Content
-* [[Android OpenVPN Guide]]  
-* [[Android Stunnel Guide]]  
-* [[Android Shadowsocks Guide]]  
+!!! caution "Experimental Warning"
+	These guides are currently experimental and under development, correspond to the current state of (pre-alpha) decentralized VPN and will be updated according to the development process
+
+
 ***
 
-## iOS Content
-* [[iOS OpenVPN Guide]]  
-* [[iOS Shadowsocks Guide]]  
+### Windows Content
+* [[Windows OpenVPN Guide]]
+* [[Windows Obfsproxy Guide]]
+* [[Windows Stunnel Guide]]  
+* [[Windows Shadowsocks Guide]]  
 ***
 
-## Linux Content
+### Linux Content
 * [[Linux OpenVPN Guide]]
 * [[Linux Obfsproxy Guide]]
 * [[Linux Stunnel Guide]]  
 * [[Linux Shadowsocks Guide]]  
 ***
 
-## OSX Content
+### OSX Content
 * [[OSX OpenVPN Guide]]
 * [[OSX Stunnel Guide]]  
 * [[OSX Shadowsocks Guide]]  
 ***
 
-## Windows Content
-* [[Windows OpenVPN Guide]]
-* [[Windows Obfsproxy Guide]]
-* [[Windows Stunnel Guide]]  
-* [[Windows Shadowsocks Guide]]  
+### Android Content            
+* [[Android OpenVPN Guide]]  
+* [[Android Stunnel Guide]]  
+* [[Android Shadowsocks Guide]]  
+***
+
+### iOS Content
+* [[iOS OpenVPN Guide]]  
+* [[iOS Shadowsocks Guide]]  
 ***

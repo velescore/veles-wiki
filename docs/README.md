@@ -1,6 +1,5 @@
 # Veles Core Wiki documentation
-This directory contains documentation about the Veles Core Wiki
-itself and guidelines about writing Veles Core Wiki articles. 
+This directory contains documentation about the Veles Core Wiki itself and guidelines about writing Veles Core Wiki articles. We recommend read the [Veles Wiki Contributing documentation](https://github.com/mdfkbtc/veles-wiki/blob/master/docs/CONTRIBUTING.md) to learn more about contributing rules and customs. 
 
 ## The Markdown Format
 The wiki pages need to be authored using the [Markdown](https://daringfireball.net/projects/markdown/) format,
