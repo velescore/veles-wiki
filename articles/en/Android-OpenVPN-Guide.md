@@ -25,7 +25,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***
 
-* Open the Google Play Store. Search for and install **Android OpenVPN Connect**, the official Android OpenVPN client application.
+* Open the **Google Play Store**. Search for and install **Android OpenVPN Connect**, the official Android OpenVPN client application.
 
 ***
 
@@ -33,20 +33,20 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* After installing OpenVPN, download [Veles OpenVPN config file](https://explorer.veles.network/dapi/getOpenVPNConfig).  
+* After installing OpenVPN, **download [Veles OpenVPN config file](https://explorer.veles.network/dapi/getOpenVPNConfig)**.  
 [https://explorer.veles.network/dapi/getOpenVPNConfig](https://explorer.veles.network/dapi/getOpenVPNConfig)
 
 ***
 
 ***Step 2***  
 
-* Start the OpenVPN app and tap the menu to **Import** the profile.
+* Start the **OpenVPN app** and tap the menu to **Import the profile**.
 
 ***
 
 ***Step 3***  
 
-* Then navigate to the location of the saved profile and select the file. The app will make a note that the profile was imported.
+* **Then navigate to the location of the saved profile and select the file**. The app will make a note that the profile was imported.
 
 ***
 
@@ -54,10 +54,10 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* To connect, simply tap the **Connect** button. You’ll be asked if you trust the OpenVPN application. Choose OK to initiate the connection.  
+* To connect, simply tap the **Connect** button. You’ll be asked if you trust the OpenVPN application. **Choose OK** to initiate the connection.  
 
 !!! tip "User Tip"
-	To disconnect from the VPN, go back to the OpenVPN app and choose **Disconnect**.  
+	To **disconnect from the VPN**, go back to the OpenVPN app and choose **Disconnect**.  
 
 ***
 

@@ -27,11 +27,13 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* On Ubuntu or Debian, you can install it just as you did on the server by typing:  
+* On **Ubuntu or Debian**, you can install it just as you did on the server by typing:  
 `sudo apt-get install stunnel`  
-* On CentOS you can install Stunnel by typing:  
+
+* On **CentOS** you can install Stunnel by typing:  
 `yum install stunnel`  
-* On Arch Linux you can install Stunnel by typing:  
+
+* On **Arch Linux** you can install Stunnel by typing:  
 `pacman -S stunnel` 
 
 ***
@@ -40,7 +42,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* Download Veles Stunnel configuration files by typing:  
+* **Download Veles Stunnel configuration files** by typing:  
 `wget https://explorer.veles.network/dapi/getStunnelConfig`  
 `wget https://explorer.veles.network/dapi/getShieldedOpenVPNConfig`  
 
@@ -48,7 +50,7 @@ If you require further assistance contact the support team @ [Discord](https://d
   
 ***Step 2***  
 
-* Move downloaded configs to it's repositories by typing:  
+* **Move downloaded configs to it's repositories** by typing:  
 `sudo mv veles.stunnel.conf /etc/stunnel/stunnel.conf`    
 `sudo mv shielded-veles.ovpn /etc/openvpn/client/`
 
@@ -58,7 +60,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* Now, you can connect to the VPN trough Stunnel by just turning on Stunnel and pointing the OpenVPN command to the client configuration file:  
+* Now, you can **connect to the VPN trough Stunnel** by just turning on Stunnel and pointing the OpenVPN command to the client configuration file:  
 `sudo stunnel`  
 `sudo openvpn --config /etc/openvpn/client/veles-shield.ovpn`
 

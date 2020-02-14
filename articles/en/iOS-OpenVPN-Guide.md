@@ -25,7 +25,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* From the App Store, search for and install **OpenVPN Connect**, the official iOS OpenVPN client application.
+* From the **App Store**, search for and install **OpenVPN Connect**, the official iOS OpenVPN client application.
 
 ***
 
@@ -33,7 +33,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* After installing OpenVPN Connect, download [Veles OpenVPN config file](https://explorer.veles.network/dapi/getOpenVPNConfig) and open with **OpenVPN Connect** by pressing **Copy to OpenVPN**.  
+* After installing OpenVPN Connect, **download [Veles OpenVPN config file](https://explorer.veles.network/dapi/getOpenVPNConfig)** and open with **OpenVPN Connect** by pressing **Copy to OpenVPN**.  
 [https://explorer.veles.network/dapi/getOpenVPNConfig](https://explorer.veles.network/dapi/getOpenVPNConfig)
 
 ***
@@ -57,10 +57,10 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* Start the connection by sliding the Connect button to the **On** position.  
+* **Start the connection by sliding the Connect button to the On position**.  
 
 !!! tip "User Tip"
-	Disconnect by sliding the same button to **Off**.  
+	**Disconnect** by sliding the same button to **Off**.  
 
 ***
 

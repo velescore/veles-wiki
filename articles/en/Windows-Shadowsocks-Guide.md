@@ -25,7 +25,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* Download [Shadowsocks Client](https://github.com/shadowsocks/shadowsocks-windows/releases) and install:  
+* **Download [Shadowsocks Client](https://github.com/shadowsocks/shadowsocks-windows/releases) and install**:  
 [https://github.com/shadowsocks/shadowsocks-windows/releases](https://github.com/shadowsocks/shadowsocks-windows/releases)
 
 ***
@@ -34,7 +34,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* After installing Shadowsocks Client, download [Veles Shadowsocks config file](https://explorer.veles.network/dapi/getShadowsocksConfig).  
+* After installing Shadowsocks Client, **download [Veles Shadowsocks config file](https://explorer.veles.network/dapi/getShadowsocksConfig)**.  
 [https://explorer.veles.network/dapi/getShadowsocksConfig](https://explorer.veles.network/dapi/getShadowsocksConfig)
 
 ***

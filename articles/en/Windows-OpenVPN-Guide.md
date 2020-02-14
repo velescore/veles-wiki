@@ -25,7 +25,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* The OpenVPN client application for Windows can be found on [OpenVPN’s Downloads page](https://openvpn.net/community-downloads/). Choose the appropriate installer version for your version of Windows.  
+* The OpenVPN client application for Windows can be found on **[OpenVPN’s Downloads page](https://openvpn.net/community-downloads/)**. Choose the appropriate installer version for your version of Windows.  
 [https://openvpn.net/community-downloads/](https://openvpn.net/community-downloads/)
 
 !!! important "Important Note"
@@ -37,7 +37,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* After installing OpenVPN, download [Veles OpenVPN config file](https://explorer.veles.network/dapi/getOpenVPNConfig).  
+* After installing OpenVPN, **download [Veles OpenVPN config file](https://explorer.veles.network/dapi/getOpenVPNConfig)**.  
 [https://explorer.veles.network/dapi/getOpenVPNConfig](https://explorer.veles.network/dapi/getOpenVPNConfig)
 
 ***
@@ -51,7 +51,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 3***  
 
-* Now launch OpenVPN, it will automatically see the profile and makes it available.
+* Now **launch OpenVPN**, it will automatically see the profile and makes it available.
 
 !!! tip "User Tip"
 	OpenVPN must be **run as an administrator** each time it’s used, even by administrative accounts. To do this without having to right-click and select Run as administrator every time you use the VPN, you can preset this, but this must be done from an administrative account.    

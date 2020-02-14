@@ -26,14 +26,14 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* Now we are going build Obfsproxy. Obfsproxy requires Python, an open source programming language, so you’ll need to download it. Go to [python.org](https://www.python.org/downloads/) and download **version 2.7** and install it accepting all the defaults:   
+* Now we are going build Obfsproxy. **Obfsproxy requires Python**, an open source programming language, so you’ll need to download it. Go to [python.org](https://www.python.org/downloads/) and **download version 2.7 and install** it accepting all the defaults:   
 [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 ***
 
 ***Step 2***  
 
-* You’ll also need to get Visual C for Python, which you can download from [http://aka.ms/vcpython27](http://aka.ms/vcpython27), once you have downloaded it, install it with the default options:  
+* You’ll also **need to get Visual C for Python**, which you can **download from [http://aka.ms/vcpython27](http://aka.ms/vcpython27)**, once you have downloaded it, install it with the default options:  
 
 ***
 
@@ -58,7 +58,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* After installing Obfsproxy download [Shielded OpenVPN config](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig) from this URL:  
+* After installing Obfsproxy **download [Shielded OpenVPN config](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig)** from this URL:  
 [https://explorer.veles.network/dapi/getShieldedOpenVPNConfig](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig)  
 
 ***
@@ -85,7 +85,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 `obfsproxy scramblesuit --dest 80.211.132.243:21343 --password=SSSTIZ3LG5SSS43OMSSSM4LKGQFASSSS client 127.0.0.1:21337`  
 
 !!! tip "User Tip"
-	The destination IP address (*in this case --dest 80.211.132.243) should be replaced with **IP of masternode** you are connecting.    
+	The destination IP address (in this case --dest 80.211.132.243) should be replaced with **IP of masternode** you are connecting.    
 
 !!! caution "Experimental Warning"
 	The password will be used only in pre-alpha testing phase. In future instead of password will be used random string.  

@@ -33,14 +33,14 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* After installing Sockswitch, download [Veles Shadowsocks config file](https://explorer.veles.network/dapi/getShadowsocksConfig).  
+* After installing Sockswitch, **download [Veles Shadowsocks config file](https://explorer.veles.network/dapi/getShadowsocksConfig)**.  
 [https://explorer.veles.network/dapi/getShadowsocksConfig](https://explorer.veles.network/dapi/getShadowsocksConfig)
 
 ***
 
 ***Step 2***  
 
-* Start the Sockswitch app and tap the **+** to add the profile and press **Manual Input**.
+* **Start the Sockswitch app** and tap the **+** to add the profile and press **Manual Input**.
 
 ***
 
@@ -75,10 +75,10 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* Start the connection by sliding the Connect button to the **On** position.  
+* **Start the connection by sliding the Connect button to the On position**.  
 
 !!! tip "User Tip"
-	Disconnect by sliding the same button to **Off**.  
+	**Disconnect** by sliding the same button to **Off**.  
 
 ***
 

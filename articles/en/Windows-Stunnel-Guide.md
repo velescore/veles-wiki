@@ -27,7 +27,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* Official Stunnel client application for Windows can be found on [Stunnel’s Downloads page](https://www.stunnel.org/downloads.html). Choose the appropriate installer version for your version of Windows.  
+* Official Stunnel client application for Windows can be found on **[Stunnel’s Downloads page](https://www.stunnel.org/downloads.html)**. Choose the appropriate installer version for your version of Windows.  
 [https://www.stunnel.org/downloads.html](https://www.stunnel.org/downloads.html)
 
 !!! important "Important Note"
@@ -37,7 +37,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 2***  
 
-* In the end of install, it will open new console window. You can input any information to these fields or let it blanc. It doesn’t matter and don’t have any affect to your connection.
+* In the end of install, it will open new console window. **You can input any information to these fields or let it blanc. It doesn’t matter and don’t have any affect to your connection**.
 
 ***
 
@@ -45,7 +45,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* After installing Stunnel, download [Veles Stunnel configuration file](https://explorer.veles.network/dapi/getStunnelConfig) and [Shielded OpenVPN config](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig) from these URL's:  
+* After installing Stunnel, **download [Veles Stunnel configuration file](https://explorer.veles.network/dapi/getStunnelConfig) and [Shielded OpenVPN config](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig)** from these URL's:  
 [https://explorer.veles.network/dapi/getStunnelConfig](https://explorer.veles.network/dapi/getStunnelConfig)  
 [https://explorer.veles.network/dapi/getShieldedOpenVPNConfig](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig)  
 

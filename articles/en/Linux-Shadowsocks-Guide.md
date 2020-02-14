@@ -25,14 +25,16 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* On Ubuntu or Debian, you can install it by typing:  
+* On **Ubuntu or Debian**, you can install it by typing:  
 `sudo apt install shadowsocks`  
-* On CentOS you can enable the EPEL repositories and then install it by typing:  
+
+* On **CentOS** you can enable the EPEL repositories and then install it by typing:  
 `sudo yum install epel-release`  
 `sudo yum install m2crypto python-setuptools`  
 `sudo yum install python-pip`  
 `pip install shadowsocks`  
-* On Arch Linux you can install it by typing:  
+
+* On **Arch Linux** you can install it by typing:  
 `pacman -S shadowsocks-libev`  
 
 ***
@@ -41,14 +43,14 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* After installing Shadowsocks Client, download [Veles Shadowsocks config file](https://explorer.veles.network/dapi/getShadowsocksConfig).  
+* After installing Shadowsocks Client, **download [Veles Shadowsocks config file](https://explorer.veles.network/dapi/getShadowsocksConfig)**.  
 [https://explorer.veles.network/dapi/getShadowsocksConfig](https://explorer.veles.network/dapi/getShadowsocksConfig)
 
 ***
 
 ***Step 2***  
 
-* Open Shadowsocks config with your favorite editor. Config is located :  
+* **Open Shadowsocks config** with your favorite editor. Config is located :  
 `nano /etc/shadowsocks.json`
 
 ***
@@ -84,7 +86,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* To connect, simply run **sslocal** command to start the ShadowSocks client tool:    
+* **To connect**, simply run **sslocal** command to start the ShadowSocks client tool:    
 `sslocal -c /etc/shadowsocks/config.json`  
 
 !!! tip "User Tip"

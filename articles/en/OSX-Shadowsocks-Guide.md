@@ -25,7 +25,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* Download [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases) and install:
+* **Download [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases) and install**:
 [https://github.com/shadowsocks/ShadowsocksX-NG/releases](https://github.com/shadowsocks/ShadowsocksX-NG/releases)
 
 ***
@@ -34,7 +34,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* After installing ShadowsocksX-NG, download [Veles Shadowsocks config file](https://explorer.veles.network/dapi/getShadowsocksConfig).  
+* After installing ShadowsocksX-NG, **download [Veles Shadowsocks config file](https://explorer.veles.network/dapi/getShadowsocksConfig)**.  
 [https://explorer.veles.network/dapi/getShadowsocksConfig](https://explorer.veles.network/dapi/getShadowsocksConfig)
 
 ***

@@ -25,7 +25,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* Open the Google Play Store. Search for and install **Shadowsocks Client**.
+* Open the **Google Play Store**. Search for and install **Shadowsocks Client**.
 
 ***
 
@@ -33,14 +33,14 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* After installing Shadowsocks Client, download [Veles Shadowsocks config file](https://explorer.veles.network/dapi/getShadowsocksConfig).  
+* After installing Shadowsocks Client, **download [Veles Shadowsocks config file](https://explorer.veles.network/dapi/getShadowsocksConfig)**.  
 [https://explorer.veles.network/dapi/getShadowsocksConfig](https://explorer.veles.network/dapi/getShadowsocksConfig)
 
 ***
 
 ***Step 2***  
 
-* Start the Shadowsocks Client app and tap the menu to **Import** the profile.
+* **Start the Shadowsocks Client app** and tap the menu to **Import the profile**.
 
 ***
 
@@ -75,10 +75,10 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* To connect, simply tap the **Connect** button. You’ll be asked if you trust the Shadowsocks Client application. Choose OK to initiate the connection.  
+* **To connect**, simply tap the **Connect** button. You’ll be asked if you trust the Shadowsocks Client application. **Choose OK** to initiate the connection.  
 
 !!! tip "User Tip"
-	To disconnect from the Shadowsocks client just press **Disconnect**.  
+	**To disconnect** from the Shadowsocks client just press **Disconnect**.  
 
 ***
 

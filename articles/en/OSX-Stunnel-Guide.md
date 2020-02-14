@@ -37,7 +37,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 2***  
 
-* After previous command finish install Stunnel by typing :  
+* After previous command finish **install Stunnel** by typing :  
 `brew install stunnel`  
 
 ***
@@ -46,14 +46,14 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* Download [Veles Stunnel configuration file](https://explorer.veles.network/dapi/getStunnelConfig):   
+* **Download [Veles Stunnel configuration file](https://explorer.veles.network/dapi/getStunnelConfig)**:   
 [https://explorer.veles.network/dapi/getStunnelConfig](https://explorer.veles.network/dapi/getStunnelConfig)  
 
 ***
 
 ***Step 2***  
 
-* Move downloaded Veles Stunnel config to it's repository:  
+* **Move downloaded Veles Stunnel config to it's repository**:  
 `/usr/local/etc/stunnel/`  
   
 !!! tip "User Tip"
@@ -63,14 +63,14 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 3***  
 
-* Download [Veles Shielded OpenVPN config](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig):   
+* **Download [Veles Shielded OpenVPN config](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig)**:   
 [https://explorer.veles.network/dapi/getShieldedOpenVPNConfig](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig) 
 
 ***
 
 ***Step 4***  
 
-* Tunnelblick will install Veles Shielded OpenVPN profile by doubleclicking on **veles-shielded.ovpn**.  
+* Tunnelblick will **install Veles Shielded OpenVPN** profile by doubleclicking on **veles-shielded.ovpn**.  
 
 !!! important "Important Note"
 	Administrative privileges are required.

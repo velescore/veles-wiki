@@ -26,7 +26,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* Open the Google Play Store. Search for and install **Veles Stunnel**, the official Veles Stunnel application.
+* Open the **Google Play Store**. Search for and install **Veles Stunnel**, the official Veles Stunnel application.
 
 ***
 
@@ -34,26 +34,26 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* After installing Veles Stunnel, download [Shielded Veles OpenVPN config file](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig).  
+* After installing Veles Stunnel, **download [Shielded Veles OpenVPN config file](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig)**.  
 [https://explorer.veles.network/dapi/getShieldedOpenVPNConfig](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig)
 
 ***
 
 ***Step 2***  
 
-* Start the OpenVPN app and tap the menu to Import the profile.
+* Start the **OpenVPN app** and tap the menu to **Import the profile**.
 
 ***
 
 ***Step 3***  
 
-* Then navigate to the location of the saved profile and select the file. The app will make a note that the profile was imported.
+* **Then navigate to the location of the saved profile and select the file**. The app will make a note that the profile was imported.
 
 ***
 
 ***Step 4***  
 
-* Start the Veles Stunnel app and tap the menu to **Config**.
+* **Start the Veles Stunnel app** and tap the menu to **Config**.
 
 ***
 
@@ -73,16 +73,16 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Now turn on Veles Stunnel . Open the app and **press the button on Home page**.
 
 !!! tip "User Tip"
-	To disconnect from the Veles Stunnel, just press that button on Home page again.  
+	**To disconnect** from the Veles Stunnel, just press that button on Home page again.  
 
 ***
 
 ***Step 2***  
 
-* To connect to VPN, open OpenVPN Connect and simply tap the **Connect** button. You’ll be asked if you trust the OpenVPN application. Choose OK to initiate the connection.  
+* **To connect to VPN**, open OpenVPN Connect and simply tap the **Connect** button. You’ll be asked if you trust the OpenVPN application. Choose OK to initiate the connection.  
 
 !!! tip "User Tip"
-	To disconnect from the VPN, go back to the OpenVPN app and choose **Disconnect**.  
+	**To disconnect from the VPN**, go back to the OpenVPN app and choose **Disconnect**.  
 
 ***
 

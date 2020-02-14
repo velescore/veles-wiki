@@ -25,7 +25,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* Tunnelblick is a free, open source OpenVPN client for Mac OS X. You can download the latest disk image from the [Tunnelblick Downloads page](https://tunnelblick.net/downloads.html). Double-click the downloaded **.dmg** file and follow the prompts to install:  
+* Tunnelblick is a free, open source OpenVPN client for Mac OS X. You can **download the latest disk image from the [Tunnelblick Downloads page](https://tunnelblick.net/downloads.html)**. Double-click the downloaded **.dmg** file and follow the prompts to install:  
 [https://tunnelblick.net/downloads.html](https://tunnelblick.net/downloads.html)  
 
 !!! tip "User Tip"
@@ -37,12 +37,12 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* After installing Tunnelblick, download [Veles OpenVPN config file](https://explorer.veles.network/dapi/getOpenVPNConfig).  
+* After installing Tunnelblick, **download [Veles OpenVPN config file](https://explorer.veles.network/dapi/getOpenVPNConfig)**.  
 https://explorer.veles.network/dapi/getOpenVPNConfig
 
 ***Step 2***  
 
-* Double-click **veles.ovpn**. Tunnelblick will install the client profile.
+* **Double-click veles.ovpn**. Tunnelblick will install the client profile.
   
 !!! important "Important Note"
 	Administrative privileges are required.  
