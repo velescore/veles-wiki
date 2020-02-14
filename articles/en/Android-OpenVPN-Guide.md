@@ -1,13 +1,12 @@
-Name:           Veles Linux OpenVPN Guide
-Image:          https://www.veles.network/images/download/linux-wallet.png
+Name:           Veles Android OpenVPN Guide
+Image:          https://www.veles.network/images/download/android.png
 Date:           Feb 12 2020,
 Version: 		1.01
 Syntax:         Markdown
 Authors:        @AltcoinBaggins @mdfkbtc
 
-# Linux OpenVPN Guide 
-
-If you are using Linux, there are a variety of tools that you can use depending on your distribution. Your desktop environment or network manager might also include connection utilities. The most universal way of connecting, however, is to just use the OpenVPN software.
+# Android OpenVPN Guide 
+This will guide you through the process of installing and using OpenVPN on the Android platform.  
 
 If you require further assistance contact the support team @ [Discord](https://discord.gg/P528fGg)
 
@@ -24,44 +23,41 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ### Section A: Download and Install OpenVPN
 
-***Step 1***  
+***Step 1***
 
-* On Ubuntu or Debian, you can install it by typing:  
-`sudo apt-get update`  
-`sudo apt-get install openvpn`  
-* On CentOS you can enable the EPEL repositories and then install it by typing:  
-`sudo yum install epel-release`  
-`sudo yum install openvpn`  
-* On Gentoo you can install it by typing:  
-`emerge -v net-vpn/openvpn`  
-* On Arch Linux you can install it by typing:  
-`pacman -S openvpn`  
+* Open the Google Play Store. Search for and install **Android OpenVPN Connect**, the official Android OpenVPN client application.
 
 ***
 
-### Section B: Configure OpenVPN 
+### Section B: Configure OpenVPN
 
 ***Step 1***  
 
-* Download Veles configuration file and move to it's repository by typing:  
-`wget https://explorer.veles.network/dapi/getOpenVPNConfig`  
-`sudo mv veles.ovpn /etc/openvpn/client/`
+* After installing OpenVPN, download [Veles OpenVPN config file](https://explorer.veles.network/dapi/getOpenVPNConfig).  
+[https://explorer.veles.network/dapi/getOpenVPNConfig](https://explorer.veles.network/dapi/getOpenVPNConfig)
 
 ***
 
 ***Step 2***  
 
-* Setup DNS to stay protected against DNS leaks use this command ( **IP used in this case serve only as example and need to replaced by one from new Masternode list** ):  
-`echo -e "#Veles decentralized DNS\nnameserver 111.111.111.111" | sudo tee -a /etc/resolv.conf >> /dev/null`
+* Start the OpenVPN app and tap the menu to **Import** the profile.
 
 ***
 
-### Section C: Connect to Veles d-VPN
+***Step 3***  
+
+* Then navigate to the location of the saved profile and select the file. The app will make a note that the profile was imported.
+
+***
+
+### Section C: Connect to Veles d-VPN 
 
 ***Step 1***  
 
-* Now you can connect to the Veles d-VPN by just pointing the openvpn command to the client configuration file:  
-`openvpn --config /etc/openvpn/client/veles.ovpn`
+* To connect, simply tap the **Connect** button. You’ll be asked if you trust the OpenVPN application. Choose OK to initiate the connection.  
+
+!!! tip "User Tip"
+	To disconnect from the VPN, go back to the OpenVPN app and choose **Disconnect**.  
 
 ***
 
