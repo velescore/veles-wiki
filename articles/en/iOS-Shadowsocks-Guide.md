@@ -67,7 +67,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Fullfill the **"Password"** with password located in Shadowsocks Config.  
 
 !!! caution "Experimental Warning"
-	In testing phase is default password - **'password'**  
+	In testing phase is default password - **`password`**  
 
 ***
 
