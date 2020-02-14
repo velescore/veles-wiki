@@ -177,15 +177,16 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Check the **status of your masternode** within the VPS by using the command below:  
 `veles-cli masternode status`  
   
-!!! tip "User Tip"
-	`su veles` # To change user from root to **veles**    
-	`veles-cli masternode status` #To check your MN status  
-	`veles-cli getblockchaininfo` #To get general info such as Veles version and current block numnber  
-	`veles-cli mnsync status` #To check if your MN is synced.  
-	`systemctl status veles.service` #To check if Veles service is running  
-	`systemctl start veles.service` #To start Veles service  
-	`systemctl stop veles.service` #To stop Veles service  
-	`systemctl is-enabled veles.service` #To check if Veles service is enabled on boot  
+* Veles user commands :   
+`veles-cli masternode status` #To check your MN status  
+`veles-cli getblockchaininfo` #To get general info such as Veles version and current block numnber  
+`veles-cli mnsync status` #To check if your MN is synced.  
+
+* Root user commands :
+`systemctl status veles.service` #To check if Veles service is running  
+`systemctl start veles.service` #To start Veles service  
+`systemctl stop veles.service` #To stop Veles service  
+`systemctl is-enabled veles.service` #To check if Veles service is enabled on boot  
 
 ***
 
