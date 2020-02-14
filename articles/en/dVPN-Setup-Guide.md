@@ -14,15 +14,16 @@ This page provides a general overview of the dVPN setup tutorials across multipl
 ## Supported Platforms  
 
 The table shows the availability of services on supported platforms.  
- 
+
   
-**Platform** 	 | **OpenVPN**		| **Stunnel** 	 | **Obfsproxy**  | **Shadowsocks**  
----------------- | ----------------	| -------------- | ---------------| ----------------
- **Linux**       |  **✔**			|  **✔**		 |  **✔**		  |  **✔**			
- **Windows**     |  **✔** 			|  **✔**	   	 |  **✔**		  |  **✔**			
- **OSX**         |  **✔**			|  **✔**		 |  **✖️**		  |  **✔**			
- **Android**	 |  **✔**			|  **✔**		 |  **✖️**		  |  **✔**			
- **iOS**		 |  **✔**			|  **✖️**		 |  **✖️**		  |  **✔**			
+**Platform**            |**OpenVPN**			|**Stunnel**			|**Obfsproxy**			  |**Shadowsocks**  
+------------------------|-----------------------|-----------------------|-------------------------|---------------------------
+ **Linux**       		|  ✔{: .green .cntr}	|  ✔{: .green .cntr}	|  ✔{: .green .cntr}	  |  ✔{: .green .cntr}			
+ **Windows**     		|  ✔{: .green .cntr} 	|  ✔{: .green .cntr}	|  ✔{: .green .cntr}	  |  ✔{: .green .cntr}			
+ **Android**	 		|  ✔{: .green .cntr}	|  ✔{: .green .cntr}	|  ✖️{: .red .cntr}	      |  ✔{: .green .cntr}			
+ **OSX**         		|  ✔{: .green .cntr}	|  ✔{: .green .cntr}	|  ✖️{: .red .cntr}	  	  |  ✔{: .green .cntr}			
+ **iOS**		 		|  ✔{: .green .cntr}	|  ✖️{: .red .cntr}	 	|  ✖️{: .red .cntr}	  	  |  ✔{: .green .cntr}
+
   
 
 ## Available Guides  
