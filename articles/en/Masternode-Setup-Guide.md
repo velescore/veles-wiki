@@ -50,7 +50,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 * Open the bitvise application and fill in the **"Hostname"** box with the **IP of your VPS**
 
-![Example-PuttyInstaller](https://i.imgur.com/vkN1alC.png)  
+![Example-PuttyInstaller](/images/guides/mn1.png)  
 
 ***
 
@@ -58,7 +58,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 * Copy the **root password** from your VPS
 
-![Example-RootPass](https://i.imgur.com/JnXQXav.png)
+![Example-RootPass](/images/guides/mn2.png)
 
 ***
 
@@ -66,7 +66,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 * Type **"root"** as the login/username
 
-![Example-Root](https://i.imgur.com/11GMkvA.png)  
+![Example-Root](/images/guides/mn3.png)  
 
 ***
 
@@ -74,7 +74,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 * Paste the password into the Bitvise terminal by right clicking (it will not show the password so just press enter)
 
-![Example-RootPassEnter](https://i.imgur.com/zVhOAKu.png)
+![Example-RootPassEnter](/images/guides/mn4.png)
 
 ***
 
@@ -89,7 +89,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * **Paste the code below** into the Bitvise terminal then press enter and wait:  
 `source <(curl -s https://raw.githubusercontent.com/velescore/veles-installer/master/masternode.sh)`
 
-![Example-RootPassEnter](https://i.imgur.com/oOrVgXI.png?1)  
+![Example-RootPassEnter](/images/guides/mn5.png)  
 
 ***
 
@@ -97,7 +97,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 * Enter your veles **Masternode Private Key** or leave it blank to generate a new Masternode Private Key for you
 
-![Example-RootPassEnter](https://i.imgur.com/Xcbcslv.png?1)
+![Example-RootPassEnter](/images/guides/mn6.png)
 
 ***
 
@@ -116,7 +116,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 * Send exactly **500 VLS** to the address you generated on your local wallet
 
-![Example-console](https://i.imgur.com/PYAnCaX.png)  
+![Example-console](/images/guides/mn7.png)  
 
 ***
 
@@ -125,7 +125,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Go to the console within the wallet and type the command below and press enter:  
 `masternode outputs`  
 
-![Example-outputs](https://i.imgur.com/FvWbqti.png)  
+![Example-outputs](/images/guides/mn8.png)  
 
 ***
 
@@ -152,7 +152,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * The `TxHash` is the **transaction ID/long key** that you copied to the text file.
 * The `Output Index` is the **0 or 1** that you copied to your text file.
 
-![Example-create](https://i.imgur.com/rLcd0gl.png?1)
+![Example-create](/images/guides/mn9.png)
 
 * Click **"File Save"**  
 
@@ -165,7 +165,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Check if your Masternode collateral transaction have **16 confirmations**
 * Click start alias in the **masternodes tab**
 
-![Example-create](https://i.imgur.com/y5pAkqi.png)
+![Example-create](/images/guides/mn10.png)
 
 ***
 
