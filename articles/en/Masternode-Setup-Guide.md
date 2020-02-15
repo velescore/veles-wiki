@@ -182,7 +182,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 `veles-cli getblockchaininfo` #To get general info such as Veles version and current block numnber  
 `veles-cli mnsync status` #To check if your MN is synced.  
 
-* Root user commands :
+* Root user commands :  
 `systemctl status veles.service` #To check if Veles service is running  
 `systemctl start veles.service` #To start Veles service  
 `systemctl stop veles.service` #To stop Veles service  
