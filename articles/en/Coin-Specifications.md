@@ -1,16 +1,16 @@
 Name:                   Veles (Cryptocurrency)
 Image:                  /images/logo/veles256.png
 Ticker:                 VLS
-Whitepaper:             [First Release](https://veles.network/Whitepaper.wiki.en.html)
-Website:                https://www.veles.network
 ProgrammingLanguage:    C++
 InitialRelease:         November 2018
-Bitcointalk:            [\[ANN\] ▼ VELES ... ](https://bitcointalk.org/index.php?topic=5064523)
 OrgStructure:           Decentralized
 OpenSource:             Yes
 License:                MIT
 ConsensusMechanism:     Proof of Work
 DevelopmentStatus:      Alpha (active)
+Bitcointalk:            [\[ANN\] ▼ VELES ... ](https://bitcointalk.org/index.php?topic=5064523)
+Website:                https://www.veles.network
+Whitepaper:             [WP - First Release](https://veles.network/Whitepaper.wiki.en.html)
 
 # Coin Specifications
 
@@ -18,10 +18,10 @@ General Specifications  | :
 ----------------------- | -------------------------------------------
 Mining Algorithms       | Lyra2z, X11, X16R, Sha256d, Scrypt, Nist5
 Maximum Supply          | 2 500 000 VLS
-Circulating Supply      | {: data-entity-id="market.price" data-attribute="total_supply" ata-format="number" data-fixed-decimals="2" data-unit="VLS" .ws }
+Circulating Supply      | {: data-entity-id="market.price" data-attribute="total_supply" data-format="number" data-fixed-decimals="2" data-unit="VLS" .ws }
 Block Time              | 2 minutes 
 Coin-swap Premine       | 50 000 VLS
-Blockchain Height       | {: data-entity-id="chain.tip" data-attribute="height" data-unit="blocks" .ws }
+Blockchain Height       | {: data-entity-id="chain.tip" data-format="number" data-attribute="height" data-unit="blocks" .ws }
 
 Masternode Specifications   | :
 --------------------------- | ---------------------------------------
@@ -48,6 +48,10 @@ Supply emitted since halving   | {: data-entity-id="chain.halving.status" data-a
 Supply emission target         | 160 000 VLS
 Supply target reached by       | {: data-entity-id="chain.halving.status" data-attribute="supply_target_reached" .ws }
 Min % required from target     | 80%
+Current halving epoch          | {: data-entity-id="chain.halving.status" data-attribute="epoch_name" .ws }
+
+For more information and full list of previous halving epochs see [Halving Epochs table on the Mining Stats](https://explorer.veles.network/miningstats#halving-epoch-table) page on the Explorer. You can also check `gethalvingstatus` command in your local wallet. 
+
 
 !!! note ""
     Items shown in green are dynamically changing by the network's consensus
