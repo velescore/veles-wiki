@@ -1,9 +1,12 @@
-Name:           Veles Linux OpenVPN Guide
-Image:          https://www.veles.network/images/download/linux-wallet.png
-Date:           Feb 12 2020,
-Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Name:               Veles Linux OpenVPN Guide
+Image:              images/download/linux-wallet.png
+GuideType:          User's Guide
+OS:                 Linux
+VelesdApp:          dVPN
+Protocol:           OpenVPN
+Requirements:       OpenVPN client
+Difficulty:         Easy
+EstimatedTime:      5 minutes
 
 # Linux OpenVPN Guide 
 
@@ -18,7 +21,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Contents
 * **Section A**: Download and Install OpenVPN
 * **Section B**: Configure OpenVPN
-* **Section C**: Connect to Veles d-VPN
+* **Section C**: Connect to Veles dVPN
 * **Section D**: Test VPN Connection
 ***
 
@@ -27,18 +30,26 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***Step 1***  
 
 * On **Ubuntu or Debian**, you can install it by typing:  
-`sudo apt-get update`  
-`sudo apt-get install openvpn`  
+```
+sudo apt-get update
+sudo apt-get install openvpn
+```
 
 * On **CentOS** you can enable the EPEL repositories and then install it by typing:  
-`sudo yum install epel-release`  
-`sudo yum install openvpn`  
+```
+sudo yum install epel-release  
+sudo yum install openvpn
+```
 
 * On **Gentoo** you can install it by typing:  
-`emerge -v net-vpn/openvpn`  
+```
+emerge -v net-vpn/openvpn
+```
 
 * On **Arch Linux** you can install it by typing:  
-`pacman -S openvpn`  
+```
+pacman -S openvpn
+```
 
 ***
 
@@ -46,25 +57,25 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***  
 
-* **Download Veles configuration file** and **move to it's repository** by typing:  
-`wget https://explorer.veles.network/dapi/getOpenVPNConfig`  
-`sudo mv veles.ovpn /etc/openvpn/client/`
+* **Generate new Veles configuration file** (through our dAPI gateway from random Masternode) and **move to it's repository** by typing:  
+```wget https://explorer.veles.network/dapi/getOpenVPNConfig
+sudo mv veles.ovpn /etc/openvpn/client/```
 
 ***
 
 ***Step 2***  
 
 * Setup DNS to **stay protected against DNS leaks** use this command ( **IP used in this case serve only as example and need to replaced by one from new Masternode list** ):  
-`echo -e "#Veles decentralized DNS\nnameserver 111.111.111.111" | sudo tee -a /etc/resolv.conf >> /dev/null`
+```echo -e "#Veles decentralized DNS\nnameserver 111.111.111.111" | sudo tee -a /etc/resolv.conf >> /dev/null```
 
 ***
 
-### Section C: Connect to Veles d-VPN
+### Section C: Connect to Veles dVPN
 
 ***Step 1***  
 
-* Now you can **connect to the Veles d-VPN** by just pointing the openvpn command to the client configuration file:  
-`openvpn --config /etc/openvpn/client/veles.ovpn`
+* Now you can **connect to the Veles dVPN** by just pointing the openvpn command to the client configuration file:  
+```openvpn --config /etc/openvpn/client/veles.ovpn```
 
 ***
 
@@ -78,4 +89,4 @@ Now connect to your VPN client and refresh the browser. The completely different
 
 ***
 
-If you do, congratulations! You have now setup a Veles d-VPN . If you do not, please contact support on [Discord](https://discord.gg/P528fGg) and they will assist you.  
+If you do, congratulations! You have now setup a Veles dVPN . If you do not, please contact support on [Discord](https://discord.gg/P528fGg) and they will assist you.  
