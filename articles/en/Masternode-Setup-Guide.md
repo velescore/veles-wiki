@@ -1,9 +1,11 @@
-Name:           Veles Core Masternode Guide
-Image:          https://veles.network/images/mn/veles-mnguide-thumb.png
-Date:           Dec 9 2018,
-Version:        1.01
-Authors:        @AltcoinBaggins @mdfkbtc
-PDF:            https://github.com/velesnetwork/masternode-guide/raw/master/veles-mnguide.pdf
+Name:               Veles Core Masternode Guide
+Image:              https://veles.network/images/mn/veles-mnguide-thumb.png
+GuideType:          Masternode Operator's Guide
+OS:                 Linux
+Generation:			1st
+Requirements:       500 VLS, VPS/server, local wallet, SSH client
+Difficulty:         Easy
+EstimatedTime:      5 minutes
 
 # Linux masternode guide 
 

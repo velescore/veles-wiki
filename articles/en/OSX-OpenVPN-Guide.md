@@ -1,9 +1,12 @@
-Name:           Veles OSX OpenVPN Guide
-Image:          https://www.veles.network/images/download/mac-wallet.png
-Date:           Feb 12 2020,
-Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Name:               Veles OSX OpenVPN Guide
+Image:              https://www.veles.network/images/download/mac-wallet.png
+GuideType:          User's Guide
+OS:                 Mac OSX
+VelesdApp:          dVPN
+Protocol:           OpenVPN
+Requirements:       OpenVPN client
+Difficulty:         Easy
+EstimatedTime:      5 minutes
 
 # OSX OpenVPN Guide 
 This will guide you through the process of installing and using Tunnelblick on the OSX platform.  

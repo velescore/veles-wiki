@@ -1,8 +1,11 @@
-Name:           Veles d-VPN Setup Tutorials
-Image:          https://www.veles.network/images/veles-official.png
-Date:           Feb 12 2020,
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Name:               Veles OpenVPN Guide
+Image:              https://www.veles.network/images/veles-official.png
+GuideType:          User's Guide List
+OS:                 Android, Linux, OSX, Windows
+VelesdApp:          dVPN
+Protocols:          OpenVPN, SSL tunnel, Shadowsocks, Obfsproxy
+Difficulty:         From *Very Easy* to *Moderate*
+EstimatedTime:      3 - 20 minutes
 
 # dVPN Setup Guide 
 

@@ -1,9 +1,12 @@
-Name:           Veles Linux Stunnel Guide
-Image:          https://www.veles.network/images/download/linux-wallet.png
-Date:           Feb 12 2020,
-Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Name:               Veles Linux Stunnel Guide
+Image:              https://www.veles.network/images/download/linux-wallet.png
+GuideType:          User's Guide
+OS:                 Linux
+VelesdApp:          dVPN
+Protocol:           TLS/SSL (stunnel), OpenVPN
+Requirements:       Stunnel, OpenVPN client
+Difficulty:         Easy
+EstimatedTime:      5 minutes
 
 # Linux Stunnel Guide
 This explains the process of installing Stunnel as a client in Linux.

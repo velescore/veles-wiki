@@ -1,9 +1,12 @@
-Name:           Veles OSX Stunnel Guide
-Image:          https://www.veles.network/images/download/mac-wallet.png
-Date:           Feb 12 2020,
-Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Name:               Veles OSX Stunnel Guide
+Image:              https://www.veles.network/images/download/mac-wallet.png
+GuideType:          User's Guide
+OS:                 Mac OSX
+VelesdApp:          dVPN
+Protocol:           TLS/SSL (stunnel), OpenVPN
+Requirements:       Stunnel, OpenVPN client
+Difficulty:         Easy
+EstimatedTime:      5 minutes
 
 # OSX Stunnel Guide 
 This will guide you through the process of installing and using Stunnel on the OSX platform.  

@@ -1,9 +1,13 @@
-Name:           Veles Windows Shadowsocks Guide
-Image:          https://www.veles.network/images/download/windows-wallet.png
-Date:           Feb 12 2020,
-Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Name:               Veles Windows Shadowsocks Guide
+Image:              https://www.veles.network/images/download/windows-wallet.png
+GuideType:          User's Guide
+OS:                 Windows
+VelesdApp:          dVPN
+Protocol:           Shadowsocks
+Requirements:       Shadowsocks client
+Difficulty:         Easy
+EstimatedTime:      5 minutes
+
 
 # Windows Shadowsocks Guide 
 This will guide you through the process of installing and using Shadowsocks on the Windows platform.  

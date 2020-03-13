@@ -1,9 +1,12 @@
-Name:           Veles Linux Shadowsocks Guide
-Image:          https://www.veles.network/images/download/linux-wallet.png
-Date:           Feb 12 2020,
-Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Name:               Veles Linux Shadowsocks Guide
+Image:              https://www.veles.network/images/download/linux-wallet.png
+GuideType:          User's Guide
+OS:                 Linux
+VelesdApp:          dVPN
+Protocol:           Shadowsocks
+Requirements:       Shadowsocks client
+Difficulty:         Easy
+EstimatedTime:      5 minutes
 
 # Linux Shadowsocks Guide 
 This will guide you through the process of installing and using Shadowsocks on the Linux platform.  

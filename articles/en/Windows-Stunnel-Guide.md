@@ -1,10 +1,12 @@
-Name:           Veles Windows Stunnel Guide
-Image:          https://www.veles.network/images/download/windows-wallet.png
-Date:           Feb 12 2020,
-Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
-
+Name:               Veles Windows Stunnel Guide
+Image:              https://www.veles.network/images/download/windows-wallet.png
+GuideType:          User's Guide
+OS:                 Windows
+VelesdApp:          dVPN
+Protocol:           TLS/SSL (stunnel), OpenVPN
+Requirements:       Stunnel, OpenVPN client
+Difficulty:         Easy
+EstimatedTime:      5 minutes
 # Window Stunnel Guide
 This explains the process of installing Stunnel as a client in Windows.
 

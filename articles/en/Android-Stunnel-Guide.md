@@ -1,9 +1,12 @@
-Name:           Veles Android Stunnel Guide
-Image:          https://www.veles.network/images/download/android.png
-Date:           Feb 12 2020,
-Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Name:               Veles Android Stunnel Guide
+Image:              images/download/android.png
+GuideType:          User's Guide
+OS:                 Android
+VelesdApp:          dVPN
+Protocol:           TLS/SSL (stunnel), OpenVPN
+Requirements:       Veles Stunnel client, OpenVPN client
+Difficulty:         Moderate
+EstimatedTime:      7 minutes
 
 # Android Stunnel Guide 
 This will guide you through the process of installing and using Stunnel on the Android platform.  

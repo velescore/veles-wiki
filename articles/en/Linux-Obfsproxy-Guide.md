@@ -1,9 +1,12 @@
-Name:           Veles Linux Obfsproxy Guide
-Image:          https://www.veles.network/images/download/linux-wallet.png
-Date:           Feb 12 2020,
-Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Name:               Veles Linux Obfsproxy Guide
+Image:              https://www.veles.network/images/download/linux-wallet.png
+GuideType:          User's Guide
+OS:                 Linux
+VelesdApp:          dVPN
+Protocol:           Obfsproxy, OpenVPN
+Requirements:       Obfsproxy, OpenVPN client
+Difficulty:         Easy
+EstimatedTime:      5 minutes
 
 # Linux Obfsproxy Guide
 This explains the process of installing Obfsproxy as a client in Linux.

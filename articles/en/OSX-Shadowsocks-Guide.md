@@ -1,9 +1,12 @@
-Name:           Veles OSX Shadowsocks Guide
-Image:          https://www.veles.network/images/download/mac-wallet.png
-Date:           Feb 12 2020,
-Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Name:               Veles OSX Shadowsocks Guide
+Image:              https://www.veles.network/images/download/mac-wallet.png
+GuideType:          User's Guide
+OS:                 Mac OSX
+VelesdApp:          dVPN
+Protocol:           Shadowsocks
+Requirements:       Shadowsocks client
+Difficulty:         Easy
+EstimatedTime:      5 minutes
 
 # OSX Shadowsocks Guide 
 This will guide you through the process of installing and using Shadowsocks on the OSX platform.  

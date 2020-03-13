@@ -1,9 +1,12 @@
-Name:           Veles Windows OpenVPN Guide
-Image:          https://www.veles.network/images/download/windows-wallet.png
-Date:           Feb 12 2020,
-Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Name:               Veles Windows OpenVPN Guide
+Image:              https://www.veles.network/images/download/windows-wallet.png
+GuideType:          User's Guide
+OS:                 Windows
+VelesdApp:          dVPN
+Protocol:           OpenVPN
+Requirements:       OpenVPN client
+Difficulty:         Easy
+EstimatedTime:      5 minutes
 
 # Windows OpenVPN Guide 
 This will guide you through the process of installing and using OpenVPN on the Windows platform.  
