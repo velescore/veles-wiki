@@ -1,9 +1,13 @@
-Name:           Veles Android OpenVPN Guide
-Image:          https://www.veles.network/images/download/android.png
-Date:           Feb 12 2020,
-Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Name:               Veles Linux OpenVPN Guide
+Image:              images/download/android.png
+GuideType:          User's Guide
+OS:                 Android
+VelesdApp:          dVPN
+Protocol:           OpenVPN
+Requirements:       OpenVPN client
+Difficulty:         Very Easy
+EstimatedTime:      3 minutes
+
 
 # Android OpenVPN Guide 
 This will guide you through the process of installing and using OpenVPN on the Android platform.  
@@ -17,7 +21,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Contents
 * **Section A**: Download and Install OpenVPN
 * **Section B**: Configure OpenVPN
-* **Section C**: Connect to Veles d-VPN
+* **Section C**: Connect to Veles dVPN
 * **Section D**: Test VPN Connection
 ***
 
@@ -50,7 +54,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***
 
-### Section C: Connect to Veles d-VPN 
+### Section C: Connect to Veles dVPN 
 
 ***Step 1***  
 
@@ -71,4 +75,4 @@ Now connect to your VPN client and refresh the browser. The completely different
 
 ***
 
-If you do, congratulations! You have now setup a Veles d-VPN . If you do not, please contact support on [Discord](https://discord.gg/P528fGg) and they will assist you.  
+If you do, congratulations! You have now setup a Veles dVPN . If you do not, please contact support on [Discord](https://discord.gg/P528fGg) and they will assist you.  

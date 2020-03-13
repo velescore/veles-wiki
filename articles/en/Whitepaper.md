@@ -1,8 +1,8 @@
 Name:           Veles Core Whitepaper
-Image:          https://veles.network/images/wp/veles-whitepaper-thumb.png
-Date:           Dec 9 2018,
+Image:          images/wp/veles-whitepaper-thumb.png
+Date:           Dec 9 2018
 Version:        1.01
-Authors:        @AltcoinBaggins @mdfkbtc
+Authors:        The Veles Core Developers
 PDF:            https://github.com/velesnetwork/whitepaper/raw/master/veles-whitepaper.pdf
 
 # Veles: Open decentralized VPN and anonymous networking ecosystem

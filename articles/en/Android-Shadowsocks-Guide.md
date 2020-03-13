@@ -1,9 +1,12 @@
-Name:           Veles Android Shadowsocks Guide
-Image:          https://www.veles.network/images/download/android.png
-Date:           Feb 12 2020,
-Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Name:               Veles Android Shadowsocks Guide
+Image:              images/download/linux-wallet.png
+GuideType:          User's Guide
+OS:                 Android
+VelesdApp:          dVPN
+Protocol:           Shadowsocks
+Requirements:       Shadowsocks client
+Difficulty:         Easy
+EstimatedTime:      5 minutes
 
 # Android Shadowsocks Guide 
 This will guide you through the process of installing and using Shadowsocks on the Android platform.  
@@ -67,7 +70,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Fullfill the **"Password"** with password located in Shadowsocks Config.  
 
 !!! caution "Experimental Warning"
-	In testing phase is default password - **`password`**  
+    In testing phase is default password - **`password`**  
 
 ***
 
@@ -78,7 +81,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * **To connect**, simply tap the **Connect** button. You’ll be asked if you trust the Shadowsocks Client application. **Choose OK** to initiate the connection.  
 
 !!! tip "User Tip"
-	**To disconnect** from the Shadowsocks client just press **Disconnect**.  
+    **To disconnect** from the Shadowsocks client just press **Disconnect**.  
 
 ***
 
