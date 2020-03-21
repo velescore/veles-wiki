@@ -1,5 +1,5 @@
 Name:                 Veles Core Wiki
-Image:                /images/logo/veles256.png
+Image:                /images/wiki-home.jpg
 Url:                  https://veles.network
 Description:          Project's open knowledge base  
 ContentLicense:       GPLv3
