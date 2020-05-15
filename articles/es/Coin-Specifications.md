@@ -51,15 +51,15 @@ Porcentaje mínimo requerido       | 80%
 Epoch actual                      | {: data-entity-id="chain.halving.status" data-attribute="epoch_name" .ws }
 
 
-Para más información y una lista completa de los Halvings anteriores vea la página [Halving Epochs table on the Mining Stats](https://explorer.veles.network/miningstats#halving-epoch-table) en el Explorador. También puede utilizar el comando `gethalvingstatus` en su billetera local. 
+Para más información y una lista completa de los Halvings anteriores vea la página [Tabla de Epochs de Halving en las estadísticas de minado](https://explorer.veles.network/miningstats#halving-epoch-table) en el Explorador. También puede utilizar el comando `gethalvingstatus` en su billetera local. 
 
 
 !!! note ""
-    Items  mostrados en verde se cambian dinámicamente por el mecanismo de consenso de la red y muestran valores actualizados.
+    Items mostrados en verde se cambian dinámicamente por el mecanismo de consenso de la red y muestran valores actualizados.
     {: .ws}
 
     Si algunos valores no se muestran es probable que sea debido a que no está viendo esta página utilizando la web-app oficial de la wiki.
     De ser así por favor visita
-    [current page on the Veles Core wiki](http://veles.network/Coin-Specifications.wiki.en.html).
+    [la página actual en la Wiki de Veles](http://veles.network/Coin-Specifications.wiki.en.html).
     Si ya es así entonces tu navegador está teniendo problemas para conectarse con el servidor.
     {: .websocket-offline}
