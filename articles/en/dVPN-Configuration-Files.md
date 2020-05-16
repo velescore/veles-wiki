@@ -60,5 +60,5 @@ Stunnel client certificate          | [link](https://explorer.veles.network/dapi
     If you see message **Your connection is not private**, click on **Advanced**
     button and on the **Proceed to X.Y.Z.W (unsafe)**. Now your download should begin.
 
-    If you want you can double chack that the certificate is issued by 
+    If you want you can double check that the certificate is issued by 
     the **Veles Core dVPN CA**.
