@@ -1,24 +1,25 @@
 Name:               Veles OpenVPN Guide
 Image:              https://www.veles.network/images/veles-official.png
-GuideType:          User's Guide List
+TipoGuía:           Lista de Guías de Usuario
 OS:                 Android, Linux, OSX, Windows
 VelesdApp:          dVPN
-Protocols:          OpenVPN, SSL tunnel, Shadowsocks, Obfsproxy
-Difficulty:         From *Very Easy* to *Moderate*
-EstimatedTime:      3 - 20 minutes
+Protocolos:         OpenVPN, SSL tunnel, Shadowsocks, Obfsproxy
+Dificultad:         Desde *Muy fácil* a *Moderado*
+TiempoEstimado:      3 - 20 minutos
 
-# dVPN Setup Guide 
+# Guía de configuración de dVPN
 
-This page provides a general overview of the dVPN setup tutorials across multiple platforms.
+Esta página provee un panorama general de los tutoriales para configuración de dVPN para las múltiples plataformas.
 
-!!! tip "Development Tip"
-	If you encounter some misleading steps or typos in the tutorials, you can report it on our [Discord](https://discord.gg/P528fGg). If you want to contribute or even fix bugs / misleading steps by yourself it's recommended to read the [Veles Wiki Contributing documentation](https://github.com/mdfkbtc/veles-wiki/blob/master/docs/CONTRIBUTING.md) and [Veles Wiki documentation](https://github.com/mdfkbtc/veles-wiki/blob/master/docs/README.md)
+!!! tip "Tip de Desarrollo"
+	Si encuentra pasos mal explicados o typos en los tutoriales, puede reportar los mismos en nuestro [Discord](https://discord.gg/P528fGg). 
+	Si quieres contribuir o incluso corregir los errores / pasos mal explicados es recomendable que leas la [Documentación de Contribución a la Wiki de Veles](https://github.com/mdfkbtc/veles-wiki/blob/master/docs/CONTRIBUTING.md) y la [Documentación de la Wiki de Veles](https://github.com/mdfkbtc/veles-wiki/blob/master/docs/README.md)
 
-## Supported Platforms  
+## Plataformas soportados
 
-The table shows the availability of services on supported platforms.  
+La siguiente tabla muestra la disponibilidad de los servicios en las diferentes plataformas soportadas.
   
-Platform    | OpenVPN   | Stunnel   | Obfsproxy | Shadowsocks    
+Plataforma  | OpenVPN   | Stunnel   | Obfsproxy | Shadowsocks    
 ------------|-----------|-----------|-----------|-------------
 Linux       |    ✔      |    ✔      |    ✔      |    ✔            
 Windows     |    ✔      |    ✔      |    ✔      |    ✔            
@@ -27,38 +28,39 @@ OSX         |    ✔      |    ✔      |    ✖️      |    ✔
 iOS         |    ✔      |    ✖️      |    ✖️      |    ✔  
 
 
-## Available Guides  
+## Guías Disponibles 
 
-!!! caution "Experimental Warning"
-	These guides are currently experimental and under development, correspond to the current state of (pre-alpha) decentralized VPN and will be updated according to the development process
+!!! caution "Aviso: Experimental"
+	Estas guías son actualmente experimentales y se encuentran en desarrollo, corresponden al estado actual (pre-alpha) de la VPN descentralizada y serán actualizados de acuerdo al avance del desarrollo
+	
 
-#### Windows Content
-* [[Windows OpenVPN Guide]]
-* [[Windows Obfsproxy Guide]]
-* [[Windows Stunnel Guide]]  
-* [[Windows Shadowsocks Guide]]  
+#### Contenido para Windows
+* [[Guía de OpenVPN para Windows]]
+* [[Guía de Obfsproxy para Windows]]
+* [[Guía de Stunnel para Windows]]  
+* [[Guía de Shadowsocks para Windows]]  
 ***
 
-#### Linux Content
-* [[Linux OpenVPN Guide]]
-* [[Linux Obfsproxy Guide]]
-* [[Linux Stunnel Guide]]  
-* [[Linux Shadowsocks Guide]]  
+#### Contenido para Linux
+* [[Guía de OpenVPN para Linux]]
+* [[Guía de Obfsproxy para Linux]]
+* [[Guía de Stunnel para Linux]]  
+* [[Guía de Shadowsocks para Linux]] 
 ***
 
-#### OSX Content
-* [[OSX OpenVPN Guide]]
-* [[OSX Stunnel Guide]]  
-* [[OSX Shadowsocks Guide]]  
+#### Contenido para OSX
+* [[Guía de OpenVPN para OSX]]
+* [[Guía de Stunnel para OSX]]  
+* [[Guía de Shadowsocks para OSX]]
 ***
 
-#### Android Content            
-* [[Android OpenVPN Guide]]  
-* [[Android Stunnel Guide]]  
-* [[Android Shadowsocks Guide]]  
+#### Contenido para Android 
+* [[Guía de OpenVPN para Android]]
+* [[Guía de Stunnel para Android]]  
+* [[Guía de Shadowsocks para Android]]
 ***
 
-#### iOS Content
-* [[iOS OpenVPN Guide]]  
-* [[iOS Shadowsocks Guide]]  
+#### Contenido para iOS
+* [[Guía de OpenVPN para iOS]]
+* [[Guía de Shadowsocks para iOS]]
 ***
