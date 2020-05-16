@@ -1,30 +1,18 @@
-# dVPN Configuration Files
+# Archivos de Configuración de dVPN
 
-To get information on how to use Veles dVPN and set-up your client software,
-see [[dVPN Setup Guide]] with the instructions for your platform and specific
-download link.
+Para conocer como usar la dVPN de Veles y configurar tu cliente software, vea la [[Guía de Configuración de dVPN]] con las instrucciones para tu plataforma y el link de descarga específico.
 
-To understand more on how are configuration files and client certificates
-generated, read on.
+Para un mejor entendimiento acerca de como los archivos de configuración y certificados de clientes son generados, continúa la lectura del artículo.
 
+Tanto los certificados como los archivos de configuración son generados en el momento por masternodes Veles con soporte a dVPN seleccionados aleatoriamente.
+Durante la actual etapa alpha de testeo, por razones de conveniencia se realizará el ruteo a través de uno de los gateways provistos por el equipo de desarrollo, pero usted puede igualmente seleccionar uno de su preferencia de la lista de masternodes activos con soporte a dVPN de la [lista extendida de masternodes](http://explorer.veles.network/dapi/mn/list/full) y utilizar la url provista.
 
-The certificates and configuration files generated on-the-fly by randomly
-selected Veles Masternode with dVPN support. During current public alpha 
-testing phase for convenience routed through one of our gateways provided by 
-the development team, but you can also pick your own from one of the active 
-masternodes with dVPN support from the 
-[extended masternode list](http://explorer.veles.network/dapi/mn/list/full)
-and use the url provided below.
+Cuando la integración de la billetera GUI sea completada, alternativamente se podrá seleccionar un masternode desde la lista provista en la billetera y descargar de forma directa los archivos de configuración directamente desde la billetera.
 
-When the integration into the GUI wallet will be completed, you'll also be 
-able to pick the masternode from the list in GUI wallet and directly download
-configuration files from the wallet.
+## Elegir el masternode a utilizar (opcional)
+Si quieres elegir un masternode específico de una locación específica, solamente debes abrir
 
-## Pick your masternode (optional)
-If you want to pick a specific masternode from specific location, just open
-the 
-
-and look for one with VPN Service enabled, for example:
+y buscar un masternode con el servicio dVPN habilitado, por ejemplo:
 ```
         "80.211.5.147": {
    			...
@@ -37,28 +25,21 @@ and look for one with VPN Service enabled, for example:
         }
 ```
 
-## Download the files
-You can click on *dAPI permalink* to download configuration files from a random
-masternode.
+## Descarga los archivos
+Puedes clickear en *dAPI permalink* para descargar los archivos de configuración desde un masternode aleatorio.
 
-To download from specific masternode you need to enter masternode IP from the step above 
-into the url  `https:// [ masternode IP ] / [ API URL below]` alongside with the API URL 
-below and open in your browser.
+Para descargar desde un masternode específicodebes ingresar la IO del masternode obtenida en el paso anterior en la url `https:// [ IP masternode ] / [ API URL abajo]` junto con la URL de la API debajo y abrir tu navegador.
 
-Title                               | dAPI link                                                               | API URL
------------------------------------ | ----------------------------------------------------------------------- | -------------------------------
-OpenVPN config                      | [link](https://explorer.veles.network/dapi/getOpenVPNConfig)            | `api/getOpenVPNConfig` 
-OpenVPN config (stunnel shielded)   | [link](https://explorer.veles.network/dapi/getOpenVPNShieldedConfig)    | `api/getOpenVPNShieldedConfig`
-Stunnel client config               | [link](https://explorer.veles.network/dapi/getStunnelConfig)            | `api/getStunnelConfig`
-Stunnel client certificate          | [link](https://explorer.veles.network/dapi/getStunnelCertificate)       | `api/getStunnelCertificate`
+Título                              | Link de dAPI                                                            | URL de API
+----------------------------------- | ----------------------------------------------------------------------- |-------------------------------
+Configuración OpenVPN               | [link](https://explorer.veles.network/dapi/getOpenVPNConfig)            | `api/getOpenVPNConfig` 
+Configuración OpenVPN (stunnel)     | [link](https://explorer.veles.network/dapi/getOpenVPNShieldedConfig)    | `api/getOpenVPNShieldedConfig`
+Configuracion Cliente Stunnel       | [link](https://explorer.veles.network/dapi/getStunnelConfig)            | `api/getStunnelConfig`
+Certificado cliente Stunnel         | [link](https://explorer.veles.network/dapi/getStunnelCertificate)       | `api/getStunnelCertificate`
 
-!!! tip "Manual Download Note"
-    When manually downloading configuration files from chosen masternode, you will need to
-    accept a warning that the host is using untrusted certificate - because we don't require
-    MN operators to purchase centralized domain names for their nodes.
-
-    If you see message **Your connection is not private**, click on **Advanced**
-    button and on the **Proceed to X.Y.Z.W (unsafe)**. Now your download should begin.
-
-    If you want you can double chack that the certificate is issued by 
-    the **Veles Core dVPN CA**.
+!!! tip "Nota de descarga manual"
+    Cuando se descarga manualmente los archivos de configuración desde un masternode seleccionado, necesitarás aceptar la advertencia de que el host está utilizando un certificado no confiable - debido a que no requerimos a operadores de MN que adquieran nombres de dominio centralizados para sus nodos.
+    
+    Si ve el mensaje **Su conexión no es privada**, haga click en **Avanzado** y luego en **Proceder a X.Y.Z.W (no seguro)**. Su descarga debería ahora comenzar.
+    
+    Si lo quiere puede chequear que el certificado es emitido por **Veles Core dVPN CA**.
