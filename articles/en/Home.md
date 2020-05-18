@@ -15,7 +15,7 @@ Welcome to the Veles Core Wiki! This is the official knowledge base for the Vele
 
 !!! tip "Development Tip"
     Some experimental features that are not yet documented can be checked out
-    int the source code of this page.
+    in the source code of this page.
 
 ![Veles Core](/images/logo/veles256.png "Figure 1: Veles Core Logo")
 
