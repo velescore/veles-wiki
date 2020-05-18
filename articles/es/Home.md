@@ -1,45 +1,44 @@
 Name:                 Veles Core Wiki
 Image:                /images/logo/veles256.png
 Url:                  https://veles.network
-Description:          Project's open knowledge base  
-ContentLicense:       GPLv3
-ProgrammingLanguage:  Python
-Syntax:               Markdown
+Descripcion:          Base de Conocimiento abierta del projecto
+LicenciaContenido:    GPLv3
+LenguajeProgramacion: Python
+Sintaxis:             Markdown
 Docs:                 https://git.veles.network/velesnetwork/veles-wiki/src/branch/master/docs
 
-# Veles Core Wiki
-Welcome to the Veles Core Wiki! This is the official knowledge base for the Veles Core project, feel free to contribute.
+# Wiki de Veles Core 
+Bienvenido a la Wiki de Veles Core! Esta es la base de conocimiento oficial del proyecto Veles Core, es bienvenido a colaborar con la misma.
 
-!!! caution "Experimental Warning"
-    This wiki is currently experimental and under development  
+!!! caution "Advertencia: Experimental"
+    Esta wiki se encuentra en etapa experimental y bajo desarrollo
 
-!!! tip "Development Tip"
-    Some experimental features that are not yet documented can be checked out
-    int the source code of this page.
+!!! tip "Tip de Desarrollo"
+    Algunas características experimentales que no han sido documentadas todavia pueden ser chequeadas en el código fuente de esta página.
 
-![Veles Core](/images/logo/veles256.png "Figure 1: Veles Core Logo")
+![Veles Core](/images/logo/veles256.png "Figura 1: Logo Veles Core")
 
-## Popular articles:  
+## Artículos populares:  
 
-- [[Masternode Setup Guide]]
-- [[dVPN Setup Guide]]
+- [[Guía de Setup de Masternode]]
+- [[Guía de Setup de dVPN]]
 - [[Whitepaper]]
 
 
-## Coin Specifications
+## Especificaciones de la Moneda
 
-Specifications           | Values
+Especificaciones         | Valores
 ------------------------ | ------------------
-Block time:          	 | **2 minutes**
-Coin supply:             | **2 500 000 VLS**
-Swap premine:            | **50 000 VLS** 
-Masternode collateral:   | **500 VLS**  
+Tiempo de bloque:     	 | **2 minutos**
+Unidades máximas:        | **2 500 000 VLS**
+Preminado (swap):        | **50 000 VLS** 
+Colateral de Masternode: | **500 VLS**  
 
-***Developer Address***  
+***Billetera de Desarrolladores***  
 
 * [VKtig9w7wfx6Ep9B4NnbwxLj1bkY2kHXBj](https://explorer.veles.network/address/VKtig9w7wfx6Ep9B4NnbwxLj1bkY2kHXBj)  
 
-***Supported Algorythms***  
+***Algoritmos soportados***  
 
 * **Lyra2z**  
 * **X11**  
