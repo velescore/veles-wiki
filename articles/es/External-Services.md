@@ -1,6 +1,6 @@
-# External Services
+# Servicios Externos
 
-### Tracking Sites
+### Sitios de Tracking
 - [MasternodeCap.com](https://masternodecap.com/coins/VLS)
 - [PoolExplorer.com](https://poolexplorer.com/coins?term=veles)
 - [MiningPoolStats.stream](https://miningpoolstats.stream/veles-x16r)
@@ -10,9 +10,9 @@
 - [Coinmarketcap](https://coinmarketcap.com/currencies/veles/)
 - [MyToken](https://www.mytoken.io/currency/vls/821717408)
 
-### Masternode Hosting
+### Hosteo de Masternode
 - [IHostMN.com](https://ihostmn.com/hostmn.php?coin=VLS)
 - [PecuniaPlatform.io](https://pecuniaplatform.io/coin-details/Veles)
 
-### Alternative Block Explorer
+### Explorador de Bloques alternativo
 - [Chainz.CryptoID.info Veles Explorer](https://chainz.cryptoid.info/vls/)
