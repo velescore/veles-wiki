@@ -1,77 +1,79 @@
 Name:           Veles iOS OpenVPN Guide
 Image:          https://www.veles.network/images/download/mac-wallet.png
-Date:           Feb 12 2020,
+Fecha:          Feb 12 2020,
 Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Sintaxis:       Markdown
+Autores:        @AltcoinBaggins @mdfkbtc
 
-# iOS OpenVPN Guide 
-This will guide you through the process of installing and using OpenVPN on the iOS platform.  
+# Guía de OpenVPN para iOS
+Esto te guiará a través del proceso de instalar y utilizar OpenVPN en la plataforma iOS.  
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/P528fGg)
+Si requiere más ayuda por favor contacte a nuestro equipo de soporte @ [Discord](https://discord.gg/P528fGg)
 
-## Requirements
-1) **Install OpenVPN Client**  
-2) **Download Veles OpenVPN config**  
+## Requerimientos
+1) **Instalar el cliente OpenVPN**  
+2) **Descargar la configuración de OpenVPN de Veles**  
 
-## Contents
-* **Section A**: Download and Install OpenVPN
-* **Section B**: Configure OpenVPN
-* **Section C**: Connect to Veles d-VPN
-* **Section D**: Test VPN Connection
+## Contenido
+* **Sección A**: Descargar e instalar OpenVPN
+* **Sección B**: Configurar OpenVPN
+* **Sección C**: Conectarse a la dVPN de Veles
+* **Sección D**: Testear la conexión VPN 
 ***
 
-### Section A: Download and Install OpenVPN
+### Sección A: Descargar e instalar OpenVPN
 
-***Step 1***  
+***Paso 1***
 
-* From the **App Store**, search for and install **OpenVPN Connect**, the official iOS OpenVPN client application.
+* En la **App Store**, buscar e instalar **OpenVPN Connect**, el cliente oficial de OpenVPN para iOS.
 
 ***
 
-### Section B: Configure OpenVPN
+### Sección B: Configurar OpenVPN
 
-***Step 1***  
+***Paso 1***  
 
-* After installing OpenVPN Connect, **download [Veles OpenVPN config file](https://explorer.veles.network/dapi/getOpenVPNConfig)** and open with **OpenVPN Connect** by pressing **Copy to OpenVPN**.  
+* Luego de instalar OpenVPN Connect, **descarga el [archivo de configuración de OpenVPN para Veles](https://explorer.veles.network/dapi/getOpenVPNConfig)**.  
+[https://explorer.veles.network/dapi/getOpenVPNConfig](https://explorer.veles.network/dapi/getOpenVPNConfig) y abrelo con **OpenVPN Connect** presionando **Copiar a OpenVPN**.  
 [https://explorer.veles.network/dapi/getOpenVPNConfig](https://explorer.veles.network/dapi/getOpenVPNConfig)
 
 ***
 
-***Step 2***  
+***Paso 2***  
 
-* Import profile file into OpenVPN Connect by pressing **Add**.
+* Importar el archivo de perfil a OpenVPN Connect mediante la opción **Agregar**.
 
-!!! tip "User Tip"
-	You should see **"Profile successfully imported"**.
-
-***
-
-***Step 3***  
-
-* Now just **Add** profile to your OpenVPN Connect.
+!!! tip "Tip de Usuario"
+	Debería ver el mensaje **"Perfil importado exitosamente"**.
 
 ***
 
-### Section C: Connect to Veles d-VPN 
+***Paso 3***  
 
-***Step 1***  
-
-* **Start the connection by sliding the Connect button to the On position**.  
-
-!!! tip "User Tip"
-	**Disconnect** by sliding the same button to **Off**.  
+* A continuación sólo debe **Agregar** el perfil a su OpenVPN Connect.
 
 ***
 
-### Section D: Test VPN Connection
+### Sección C: Conectarse a la dVPN de Veles
 
-***Step 1***  
+***Paso 1***  
 
-* Once everything is installed, a simple check confirms everything is working properly. Without having a VPN connection enabled, open a browser and go to [DNSLeakTest](https://www.dnsleaktest.com/).
-The site will return the IP address assigned by your internet service provider and as you appear to the rest of the world. To check your DNS settings through the same website, click on Extended Test and it will tell you which DNS servers you are using.
-Now connect to your VPN client and refresh the browser. The completely different IP address of your VPN server should now appear. That is now how you appear to the world. Again, [DNSLeakTest's](https://www.dnsleaktest.com/) **Extended Test** will check your DNS settings and confirm you are now using the DNS resolvers pushed by Veles dVPN.
+* **Comience la conexión deslizando el botónde Conectar a la posición de Encendido**.  
+
+!!! tip "Tip de Usuario"
+	**Desconéctese** deslizando el mismo botón a **Apagado**.  
 
 ***
 
-If you do, congratulations! You have now setup a Veles d-VPN . If you do not, please contact support on [Discord](https://discord.gg/P528fGg) and they will assist you.  
+### Sección D: Testear la Conexión VPN
+
+***Paso 1***  
+
+* Una vez que todo está instalado, es sencillo confirmar que todo está funcionando apropiadamente. Sin tener la conexión VPN activada, abra su navegador y vaya a [DNSLeakTest](https://www.dnsleaktest.com/).
+El sitio le retornará la dirección IP asignada a usted por su proveedor de Internet, de la forma que el mundo lo ve. Para chequear su configuración de DNS a través del mismo sitio, clickee en Test Extendido y le informará que servidores DNS está utilizando.
+Ahora, conecte su cliente VPN y refresque el navegador. La dirección IP totalmente nueva de su servidor VPN debería aparecer. Esto es como se muestra al mundo ahora. Nuevamente, el **Test Extendido** de  [DNSLeakTest](https://www.dnsleaktest.com/) chequeará su configuración de servidores DNS y le confirmará que está utilizando los resolvedores DNS de la dVPN Veles.
+
+***
+
+Si está todo correcto. felicitaciones! Has configurado la dVPN de Veles de manera exitosa. Si no es así, por favor contacta a soporte en [Discord](https://discord.gg/P528fGg) y ellos te asistirán.  
+
