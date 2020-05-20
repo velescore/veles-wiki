@@ -1,95 +1,95 @@
 Name:           Veles iOS Shadowsocks Guide
 Image:          https://www.veles.network/images/download/mac-wallet.png
-Date:           Feb 12 2020,
+Fecha:          12 de febrero de 2020,
 Version: 		1.01
-Syntax:         Markdown
-Authors:        @AltcoinBaggins @mdfkbtc
+Sintaxis:       Markdown
+Autores:        @AltcoinBaggins @mdfkbtc
 
-# iOS Shadowsocks Guide 
-This will guide you through the process of installing and using Shadowsocks on the iOS platform.  
+# Guía de Shadowsocks para iOS
+Esto te guiará a través del proceso de instalar y utilizar Shadowsock en la plataforma iOS.  
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/P528fGg)
+Si requiere más ayuda por favor contacte a nuestro equipo de soporte @ [Discord](https://discord.gg/P528fGg) 
 
-## Requirements
-1) **Install Shadowsocks Client**  
-2) **Download Veles Shadowsocks config**  
+## Requirimientos
+1) **Instalar el cliente de Shadowsocks**  
+2) **Descargar la configuración de OpenVPN para Veles**  
 
-## Contents
-* **Section A**: Download and Install Shadowsocks
-* **Section B**: Configure Shadowsocks
-* **Section C**: Connect to Veles d-VPN with Shadowsocks
-* **Section D**: Test Shadowsocks Connection
+## Contenido
+* **Sección A**: Descargar e instalar Shadowsocks
+* **Sección B**: Configurar Shadowsocks
+* **Sección C**: Conectarse a la dVPN de Veles con Shadowsocks
+* **Sección D**: Testear la conexión Shadowsocks 
 ***
 
-### Section A: Download and Install Shadowsocks
+### Sección A: Descargar e instalar Shadowsocks
 
-***Step 1***  
+***Paso 1***
 
-* From the App Store, search for and install **Sockswitch**.
+* Abrir la App Store. Buscar e instalar **Sockswitch**.
 
 ***
 
-### Section B: Configure Shadowsocks 
+### Sección B: Configurar Shadowsocks 
 
-***Step 1***  
+***Paso 1***  
 
-* After installing Sockswitch, **download [Veles Shadowsocks config file](https://explorer.veles.network/dapi/getShadowsocksConfig)**.  
+* Luego de instalar Sockswitch, **descarga el [archivo de configuración de Shadowsocks para Veles](https://explorer.veles.network/dapi/getShadowsocksConfig)**.  
 [https://explorer.veles.network/dapi/getShadowsocksConfig](https://explorer.veles.network/dapi/getShadowsocksConfig)
 
 ***
 
-***Step 2***  
+***Paso 2***  
 
-* **Start the Sockswitch app** and tap the **+** to add the profile and press **Manual Input**.
-
-***
-
-***Step 3***  
-
-* Then fill **"Hostname"** with **IP of Masternode** located in Shadowsocks Config.
+* **Ejecutar la app Sockswitch** y pulsar **+** para agregar el perfil y presionar **Manual Input**.
 
 ***
 
-***Step 4***  
+***Paso 3***  
 
-* **"Remote Port"** replace with Veles Remote Port **21344**
-
-***
-
-***Step 5***  
-
-* Change **"Encryption Method"** to **aes-256-cfb**
+* Luego, completa el **"Hostname" (nombre de host)** con la **IP del Masternode** en la configuración de Shadowsocks.
 
 ***
 
-***Step 6***  
+***Paso 4***  
 
-* Fullfill the **"Password"** with password located in Shadowsocks Config.  
-
-!!! caution "Experimental Warning"
-	In testing phase is default password - **`password`**  
+* **"Remote Port" (Puerto Remoto)** reemplazar con el Puerto Remoto de Veles **21344**
 
 ***
 
-### Section C: Connect to Veles d-VPN with Shadowsocks 
+***Paso 5***  
 
-***Step 1***  
+* Cambiar **"Encryption Method" (Método de Encriptación)** a **aes-256-cfb**
 
-* **Start the connection by sliding the Connect button to the On position**.  
+***
+
+***Paso 6***  
+
+* Completar el **"Password"** con el password en la configuración de Shadowsocks.  
+
+!!! cuidado "Advertencia"
+    En la fase de testeo el password por defecto es - **`password`**  
+
+***
+### Sección C: Conectarse a la dVPN de Veles con Shadowsocks
+
+***Paso 1***  
+
+* **Inicia la conexión deslizando el botón Conectar a la posición de Activado**.    
 
 !!! tip "User Tip"
-	**Disconnect** by sliding the same button to **Off**.  
+ 	Para **desconectarse** del cliente Shadowsocks, simplemente deslize el boton a **Desactivado**.  
 
 ***
 
-### Section D: Test Shadowsocks Connection
+### Sección D: Testear la conexión Shadowsocks 
 
-***Step 1***  
+***Paso 1***  
 
-* Once everything is installed, a simple check confirms everything is working properly. Without having a Shadowsocks connection enabled, open a browser and go to [DNSLeakTest](https://www.dnsleaktest.com/).
-The site will return the IP address assigned by your internet service provider and as you appear to the rest of the world. To check your DNS settings through the same website, click on Extended Test and it will tell you which DNS servers you are using.
-Now connect to your Shadowsocks client and refresh the browser. The completely different IP address of your Shadowsocks  server should now appear. That is now how you appear to the world. Again, [DNSLeakTest's](https://www.dnsleaktest.com/) **Extended Test** will check your DNS settings and confirm you are now using the DNS resolvers pushed by Veles dVPN.
+* Una vez que todo está instalado, es sencillo confirmar que todo está funcionando apropiadamente. Sin tener la conexión Shadowsocks activada, abra su navegador y vaya a [DNSLeakTest](https://www.dnsleaktest.com/).
+El sitio le retornará la dirección IP asignada a usted por su proveedor de Internet, de la forma que el mundo lo ve. Para chequear su configuración de DNS a través del mismo sitio, clickee en Test Extendido y le informará que servidores DNS está utilizando.
+Ahora, conecte su cliente Shadowsocks y refresque el navegador. La dirección IP totalmente nueva de su servidor VPN debería aparecer. Esto es como se muestra al mundo ahora. Nuevamente, el **Test Extendido** de  [DNSLeakTest](https://www.dnsleaktest.com/) chequeará su configuración de servidores DNS y le confirmará que está utilizando los resolvedores DNS de la dVPN Veles.
 
 ***
 
-If you do, congratulations! You have now setup a Veles d-VPN . If you do not, please contact support on [Discord](https://discord.gg/P528fGg) and they will assist you.  
+Si está todo correcto. felicitaciones! Has configurado la dVPN de Veles de manera exitosa. Si no es así, por favor contacta a soporte en [Discord](https://discord.gg/P528fGg) y ellos te asistirán.  
+
