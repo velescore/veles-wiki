@@ -1,86 +1,87 @@
-Name:               Veles Linux Obfsproxy Guide
+Name:               Guía de Obfsproxy para Veles en Linux
 Image:              https://www.veles.network/images/download/linux-wallet.png
-GuideType:          User's Guide
-OS:                 Linux
-VelesdApp:          dVPN
-Protocol:           Obfsproxy, OpenVPN
-Requirements:       Obfsproxy, OpenVPN client
-Difficulty:         Easy
-EstimatedTime:      5 minutes
+TipodeGuía:          Guía de Usuario
+OS:                  Linux
+VelesdApp:           dVPN
+Protocolo:           Obfsproxy, OpenVPN
+Requirimientos:      clientes Obfsproxy, OpenVPN 
+Dificultad:          Fácil
+TiempoEstimado:      5 minutos
 
-# Linux Obfsproxy Guide
-This explains the process of installing Obfsproxy as a client in Linux.
+# Guía de Obfsproxy en Linux
+Esta guía explica el proceso de instalar Obfsproxy como cliente en Linux.
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/P528fGg)
+Si requiere más ayuda por favor contacte a nuestro equipo de soporte @ [Discord](https://discord.gg/P528fGg) 
 
-## Requirements
-1) **Succesfully installed [[Linux OpenVPN Guide]]**  
-2) **Install Obfsproxy**  
-3) **Download Veles shieled OpenVPN config**  
+## Requirimientos
+1) **Haber instalado satisfactoriamente lo indicado en la [[Guía de OpenVPN para Linux]]**  
+2) **Instalar Obfsproxy**  
+3) **Descargar la configuración de OpenVPN para Veles**  
 
-## Contents
-* **Section A**: Download and Install Obfsproxy
-* **Section B**: Configure Obfsproxy
-* **Section C**: Connect Veles d-VPN with Obfsproxy
-* **Section D**: Test VPN Connection
+## Contenido
+* **Sección A**: Descargar e instalar Obfsproxy
+* **Sección B**: Configurar Obfsproxy
+* **Sección C**: Conectarse a la dVPN de Veles con Obfsproxy
+* **Sección D**: Testear la conexión VPN 
 ***
 
-### Section A: Download and Install Obfsproxy
 
-***Step 1***  
+### Sección A: Descargar e Instalar Obfsproxy
 
-* On **Ubuntu or Debian**, you can install it just as you did on the server by typing:  
+***Paso 1***  
+
+* En **Ubuntu o Debian**, puedes instalar mediante el comando:  
 `sudo apt-get install obfsproxy`  
 
-* On **CentOS** you can install Obfsproxy by typing:  
+* En **CentOS** puedes instalar Obfsproxy con el comando:  
 `yum install make automake gcc python-pip python-devel libyaml-devel`  
 `pip install obfsproxy`    
 
-* On **Arch Linux** you can install Obfsproxy from AUR package by typing:    
+* En **Arch Linux** puedes instalar Obfsproxy desde el paquete AUR mediante el comando:    
 `yay --install obfsproxy-git`  
 
 ***
 
-### Section B: Configure Obfsproxy
+### Sección B:  Configurar Obfsproxy
 
-***Step 1***  
+***Paso 1***  
 
-* **Download Veles Shielded configuration** file by typing:    
+* **Descargar la configuración para Veles** mediante:    
 `wget https://explorer.veles.network/dapi/getShieldedOpenVPNConfig` 
 
 ***
   
-***Step 2***  
+***Paso 2***  
 
-* **Move downloaded config to it's repositories** by typing:    
+* **Mover el archivo de configuración descargado a los repositorios** mediante:    
 `sudo mv shielded-veles.ovpn /etc/openvpn/client/`
 
 ***
 
-### Section C: Connect Veles d-VPN with Obfsproxy
+### Sección C:  Conectar a la dVPN Veles con Obfsproxy
 
-***Step 1***  
+***Paso 1***  
 
-* Now, you can **connect to the VPN by just turning on ObfsProxy** and pointing the OpenVPN command to the client configuration file:  
+* Ahora, puedes **conectarte a la VPN simplemente iniciando ObfsProxy** y apuntando el comando de OpenVPN la archivo de configuración de cliente:  
 `sudo obfsproxy scramblesuit --dest 80.211.132.243:21343 --password=SSSTIZ3LG5SSS43OMSSSM4LKGQFASSSS client 127.0.0.1:21337`    
 `sudo openvpn --config /etc/openvpn/client/veles-shield.ovpn`  
 
-!!! tip "User Tip"
-	The destination IP address (in this case --dest 80.211.132.243) should be replaced with **IP of masternode** you are connecting.  
+!!! tip "Tip de Usuario"
+	La IP de destino (en este caso --dest 80.211.132.243) debe ser reempplazada con la **IP del masternode** al que se está conectando.  
 
-!!! caution "Experimental Warning"
-	The password will be used only in pre-alpha testing phase. In future instead of password will be used random string.  
+!!! caution "Advertencia: Experimental"
+	El password sólo será utilizando durante la etapa de testing pre-alpha. En el futuro en lugar de password se utilizará un string aleatorio.  
 
 ***
    
-### Section D: Test VPN Connection
+### Sección D: Testear la conexión Shadowsocks 
 
-***Step 1***  
+***Paso 1***  
 
-* Once everything is installed, a simple check confirms everything is working properly. Without having a VPN connection enabled, open a browser and go to [DNSLeakTest](https://www.dnsleaktest.com/).
-The site will return the IP address assigned by your internet service provider and as you appear to the rest of the world. To check your DNS settings through the same website, click on Extended Test and it will tell you which DNS servers you are using.
-Now connect to your VPN client and refresh the browser. The completely different IP address of your VPN server should now appear. That is now how you appear to the world. Again, [DNSLeakTest's](https://www.dnsleaktest.com/) **Extended Test** will check your DNS settings and confirm you are now using the DNS resolvers pushed by Veles dVPN.
+* Una vez que todo está instalado, es sencillo confirmar que todo está funcionando apropiadamente. Sin tener la conexión Shadowsocks activada, abra su navegador y vaya a [DNSLeakTest](https://www.dnsleaktest.com/).
+El sitio le retornará la dirección IP asignada a usted por su proveedor de Internet, de la forma que el mundo lo ve. Para chequear su configuración de DNS a través del mismo sitio, clickee en Test Extendido y le informará que servidores DNS está utilizando.
+Ahora, conecte su cliente Shadowsocks y refresque el navegador. La dirección IP totalmente nueva de su servidor VPN debería aparecer. Esto es como se muestra al mundo ahora. Nuevamente, el **Test Extendido** de  [DNSLeakTest](https://www.dnsleaktest.com/) chequeará su configuración de servidores DNS y le confirmará que está utilizando los resolvedores DNS de la dVPN Veles.
 
 ***
 
-If you do, congratulations! You have now setup a . If you do not, please contact support on [Discord](https://discord.gg/P528fGg) and they will assist you.  
+Si está todo correcto. felicitaciones! Has configurado la dVPN de Veles de manera exitosa. Si no es así, por favor contacta a soporte en [Discord](https://discord.gg/P528fGg) y ellos te asistirán.  
