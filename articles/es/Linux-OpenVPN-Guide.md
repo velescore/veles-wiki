@@ -1,92 +1,92 @@
-Name:               Veles Linux OpenVPN Guide
+Name:               Guía de OpenVPN para Veles para Linux
 Image:              images/download/linux-wallet.png
-GuideType:          User's Guide
+TipoGuía:           Guía de Usuario
 OS:                 Linux
 VelesdApp:          dVPN
-Protocol:           OpenVPN
-Requirements:       OpenVPN client
-Difficulty:         Easy
-EstimatedTime:      5 minutes
+Protocolo:          OpenVPN
+Requerimientos:     Cliente OpenVPN
+Dificultad:         Fácil
+TiempoEstimado:     5 minutos
 
-# Linux OpenVPN Guide 
+# Guía de OpenVPN para Linux
 
-If you are using Linux, there are a variety of tools that you can use depending on your distribution. Your desktop environment or network manager might also include connection utilities. The most universal way of connecting, however, is to just use the OpenVPN software.
+Si utilizas Linux, hay una gran variedad de herramientas que puedes utilizar dependiendo de tu distribución. Tu entorno de escritorio o tu administrador de redes puede también incluir utilidades de conexión. La forma más diseminada de conectarse, de todas formas, es utilizar el software OpenVPN.
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/P528fGg)
+Si requiere más ayuda por favor contacte a nuestro equipo de soporte @ [Discord](https://discord.gg/P528fGg)
 
-## Requirements
-1) **Install OpenVPN Client**  
-2) **Download Veles OpenVPN config**  
+## Requerimientos
+1) **Instalar el cliente OpenVPN**  
+2) **Descargar la configuración de OpenVPN de Veles**  
 
-## Contents
-* **Section A**: Download and Install OpenVPN
-* **Section B**: Configure OpenVPN
-* **Section C**: Connect to Veles dVPN
-* **Section D**: Test VPN Connection
+## Contenido
+* **Sección A**: Descargar e instalar OpenVPN
+* **Sección B**: Configurar OpenVPN
+* **Sección C**: Conectarse a la dVPN de Veles
+* **Sección D**: Testear la conexión VPN 
 ***
 
-### Section A: Download and Install OpenVPN
+#### Sección A: Descargar e instalar OpenVPN
 
-***Step 1***  
+***Paso 1*** 
 
-* On **Ubuntu or Debian**, you can install it by typing:  
+* En **Ubuntu o Debian**, puedes instalar con el comando: 
 ```
 sudo apt-get update
 sudo apt-get install openvpn
 ```
 
-* On **CentOS** you can enable the EPEL repositories and then install it by typing:  
+* E **CentOS** puede habilitar los repositorios EPEL repositories y luego instalar mediante:
 ```
 sudo yum install epel-release  
 sudo yum install openvpn
 ```
 
-* On **Gentoo** you can install it by typing:  
+* En **Gentoo** puedes instalar mediante:  
 ```
 emerge -v net-vpn/openvpn
 ```
 
-* On **Arch Linux** you can install it by typing:  
+* En **Arch Linux** puedes instalar mediante:  
 ```
 pacman -S openvpn
 ```
 
 ***
 
-### Section B: Configure OpenVPN 
+### Sección B: Configurar OpenVPN
 
-***Step 1***  
+***Paso 1***  
 
-* **Generate new Veles configuration file** (through our dAPI gateway from random Masternode) and **move to it's repository** by typing:  
-```wget https://explorer.veles.network/dapi/getOpenVPNConfig
-sudo mv veles.ovpn /etc/openvpn/client/```
+* **Generar un nuevo archivo de configuracion para Veles** (a través de nuestra dAPI desde un Masternode aleatorio) y **muevelo al repositorio** mediante:  
+``wget https://explorer.veles.network/dapi/getOpenVPNConfig
+sudo mv veles.ovpn /etc/openvpn/client/``
 
 ***
 
-***Step 2***  
+***Paso 2***  
 
-* Setup DNS to **stay protected against DNS leaks** use this command ( **IP used in this case serve only as example and need to replaced by one from new Masternode list** ):  
+* Setea el DNS para **mantenerse protegido de leaks de DNS** usando el siguiente comando ( **la IP usada en este caso sirve solamente de ejemplo y debe ser reemplazada por una de la lista de Masternodes** ):  
 ```echo -e "#Veles decentralized DNS\nnameserver 111.111.111.111" | sudo tee -a /etc/resolv.conf >> /dev/null```
 
 ***
 
-### Section C: Connect to Veles dVPN
+### Sección C: Conectarse a la dVPN de Veles
 
-***Step 1***  
+***Paso 1***  
 
-* Now you can **connect to the Veles dVPN** by just pointing the openvpn command to the client configuration file:  
+* Ahora, puedes **conectarte a la dVPN de Veles** apuntando el comando openvon al archivo de configuración de cliente:  
 ```openvpn --config /etc/openvpn/client/veles.ovpn```
 
 ***
 
-### Section D: Test VPN Connection
+### Sección D: Testear la conexión VPN 
 
-***Step 1***  
+***Paso 1***  
 
-* Once everything is installed, a simple check confirms everything is working properly. Without having a VPN connection enabled, open a browser and go to [DNSLeakTest](https://www.dnsleaktest.com/).
-The site will return the IP address assigned by your internet service provider and as you appear to the rest of the world. To check your DNS settings through the same website, click on Extended Test and it will tell you which DNS servers you are using.
-Now connect to your VPN client and refresh the browser. The completely different IP address of your VPN server should now appear. That is now how you appear to the world. Again, [DNSLeakTest's](https://www.dnsleaktest.com/) **Extended Test** will check your DNS settings and confirm you are now using the DNS resolvers pushed by Veles dVPN.
+* Una vez que todo está instalado, es sencillo confirmar que todo está funcionando apropiadamente. Sin tener la conexión VPN activada, abra su navegador y vaya a [DNSLeakTest](https://www.dnsleaktest.com/).
+El sitio le retornará la dirección IP asignada a usted por su proveedor de Internet, de la forma que el mundo lo ve. Para chequear su configuración de DNS a través del mismo sitio, clickee en Test Extendido y le informará que servidores DNS está utilizando.
+Ahora, conecte su cliente VPN y refresque el navegador. La dirección IP totalmente nueva de su servidor VPN debería aparecer. Esto es como se muestra al mundo ahora. Nuevamente, el **Test Extendido** de  [DNSLeakTest](https://www.dnsleaktest.com/) chequeará su configuración de servidores DNS y le confirmará que está utilizando los resolvedores DNS de la dVPN Veles.
 
 ***
 
-If you do, congratulations! You have now setup a Veles dVPN . If you do not, please contact support on [Discord](https://discord.gg/P528fGg) and they will assist you.  
+Si está todo correcto. felicitaciones! Has configurado la dVPN de Veles de manera exitosa. Si no es así, por favor contacta a soporte en [Discord](https://discord.gg/P528fGg) y ellos te asistirán.  
