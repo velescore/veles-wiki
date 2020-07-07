@@ -1,4 +1,4 @@
-Name:               Veles Linux OpenVPN Guide
+Name:               Veles Android OpenVPN Guide
 Image:              images/download/android.png
 GuideType:          User's Guide
 OS:                 Android
