@@ -74,7 +74,7 @@ sudo mv veles.ovpn /etc/openvpn/client/``
 
 ***Paso 1***  
 
-* Ahora, puedes **conectarte a la dVPN de Veles** apuntando el comando openvon al archivo de configuración de cliente:  
+* Ahora, puedes **conectarte a la dVPN de Veles** apuntando el comando openvpn al archivo de configuración de cliente:  
 ```openvpn --config /etc/openvpn/client/veles.ovpn```
 
 ***
