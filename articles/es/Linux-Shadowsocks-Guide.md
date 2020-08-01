@@ -1,113 +1,114 @@
-Name:               Veles Linux Shadowsocks Guide
+Name:               Guía de Shadowsocks en Linux para Veles
 Image:              https://www.veles.network/images/download/linux-wallet.png
-GuideType:          User's Guide
+TipoGuía:           Guía de Usuario
 OS:                 Linux
 VelesdApp:          dVPN
-Protocol:           Shadowsocks
-Requirements:       Shadowsocks client
-Difficulty:         Easy
-EstimatedTime:      5 minutes
+Protocolo:          Shadowsocks
+Requirimientos:     cliente Shadowsocks
+Dificultad:         Fácil
+TiempoEstimado:     5 minutos
 
-# Linux Shadowsocks Guide 
-This will guide you through the process of installing and using Shadowsocks on the Linux platform.  
+# Guía de Shadowsocks para Linux
+Esto te guiará a través del proceso de instalar y utilizar Shadowsock en la plataforma Linux.  
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/P528fGg)
+Si requiere más ayuda por favor contacte a nuestro equipo de soporte @ [Discord](https://discord.gg/P528fGg) 
 
-## Requirements
-1) **Install Shadowsocks Client**  
-2) **Download Veles Shadowsocks config**  
+## Requirimientos
+1) **Instalar el cliente de Shadowsocks**  
+2) **Descargar la configuración de OpenVPN para Veles** 
 
-## Contents
-* **Section A**: Download and Install Shadowsocks
-* **Section B**: Configure Shadowsocks
-* **Section C**: Connect to Veles d-VPN with Shadowsocks
-* **Section D**: Test Shadowsocks Connection
+## Contenido
+* **Sección A**: Descargar e instalar Shadowsocks
+* **Sección B**: Configurar Shadowsocks
+* **Sección C**: Conectarse a la dVPN de Veles con Shadowsocks
+* **Sección D**: Testear la conexión Shadowsocks 
 ***
 
-### Section A: Download and Install Shadowsocks
+### Sección A: Descargar e instalar Shadowsocks
 
-***Step 1***  
+***Paso 1***
 
-* On **Ubuntu or Debian**, you can install it by typing:  
+* En **Ubuntu o Debian**, puedes instalarlo mediante el comando:  
 `sudo apt install shadowsocks`  
 
-* On **CentOS** you can enable the EPEL repositories and then install it by typing:  
+* En **CentOS** puedes habilitar los repositorios EPEL y luego instalarlo mediante:  
 `sudo yum install epel-release`  
 `sudo yum install m2crypto python-setuptools`  
 `sudo yum install python-pip`  
 `pip install shadowsocks`  
 
-* On **Arch Linux** you can install it by typing:  
+* En **Arch Linux**, puedes instalarlo mediante el comando:  
 `pacman -S shadowsocks-libev`  
 
 ***
 
-### Section B: Configure Shadowsocks 
+### Sección B: Configurar Shadowsocks
 
-***Step 1***  
+***Paso 1***   
 
-* After installing Shadowsocks Client, **download [Veles Shadowsocks config file](https://explorer.veles.network/dapi/getShadowsocksConfig)**.  
+* Luego de instalar el cliente de Shadowsocks, **descarga el [archivo de configuración de Shadowsocks para Veles](https://explorer.veles.network/dapi/getShadowsocksConfig)**.  
 [https://explorer.veles.network/dapi/getShadowsocksConfig](https://explorer.veles.network/dapi/getShadowsocksConfig)
 
 ***
 
-***Step 2***  
+***Paso 2***    
 
-* **Open Shadowsocks config** with your favorite editor. Config is located :  
+* **Abrir la configuración de Shadowsocks** con tu editor favorito. La misma se encuentra en:  
 `nano /etc/shadowsocks.json`
 
 ***
 
-***Step 3***  
+***Paso 3***  
 
-* Then fill **"Hostname"** with **IP of Masternode** located in Shadowsocks Config.
-
-***
-
-***Step 4***  
-
-* **"Remote Port"** replace with Veles Remote Port **21344**
+* Luego, completa el **"Hostname" (nombre de host)** con la **IP del Masternode** en la configuración de Shadowsocks.
 
 ***
 
-***Step 5***  
+***Paso 4***  
 
-* Change **"Encryption Method"** to **aes-256-cfb**
-
-***
-
-***Step 6***  
-
-* Fullfill the **"Password"** with password located in Shadowsocks Config.  
-
-!!! caution "Experimental Warning"
-	In testing phase is default password - **`password`**  
+* Reemplazar **"Remote Port" (Puerto Remoto)** con el Puerto Remoto de Veles **21344**
 
 ***
 
-### Section C: Connect to Veles d-VPN with Shadowsocks 
+***Paso 5***  
 
-***Step 1***  
+* Cambiar **"Encryption Method" (Método de Encriptación)** a **aes-256-cfb**
 
-* **To connect**, simply run **sslocal** command to start the ShadowSocks client tool:    
+***
+
+***Paso 6***  
+
+* Completar el **"Password"** con el password en la configuración de Shadowsocks.  
+
+!!! caution "Advertencia: Experimental"
+	En fase de testeo la contraseña por defecto es - **`password`**  
+
+***
+
+### Sección C: Conectarse a la dVPN de Veles con Shadowsocks
+
+***Paso 1***
+
+* **Para conectarte**, dimplemente ejecuta el comando **sslocal** para iniciar el cliente ShadowSocks:    
 `sslocal -c /etc/shadowsocks/config.json`  
 
-!!! tip "User Tip"
-	When you see below message, it means the client tool has been started successfully.  
+!!! tip "Tip de Usuario"
+	En caso de ver los siguientes mensajes significa que el cliente inicio correctamente.  
 	`INFO: loading config from /etc/shadowsocks/config.json`  
 	`2018-10-01 21:28:25 INFO loading libcrypto from libcrypto.so.1.1`  
 	`2018-10-01 21:28:25 INFO starting local at 127.0.0.1:1080`    
 
 ***
 
-### Section D: Test Shadowsocks Connection
+### Sección D: Testear la conexión Shadowsocks 
 
-***Step 1***  
+***Paso 1***  
 
-* Once everything is installed, a simple check confirms everything is working properly. Without having a Shadowsocks connection enabled, open a browser and go to [DNSLeakTest](https://www.dnsleaktest.com/).
-The site will return the IP address assigned by your internet service provider and as you appear to the rest of the world. To check your DNS settings through the same website, click on Extended Test and it will tell you which DNS servers you are using.
-Now connect to your Shadowsocks client and refresh the browser. The completely different IP address of your Shadowsocks server should now appear. That is now how you appear to the world. Again, [DNSLeakTest's](https://www.dnsleaktest.com/) **Extended Test** will check your DNS settings and confirm you are now using the DNS resolvers pushed by Veles dVPN.
+* Una vez que todo está instalado, es sencillo confirmar que todo está funcionando apropiadamente. Sin tener la conexión Shadowsocks activada, abra su navegador y vaya a [DNSLeakTest](https://www.dnsleaktest.com/).
+El sitio le retornará la dirección IP asignada a usted por su proveedor de Internet, de la forma que el mundo lo ve. Para chequear su configuración de DNS a través del mismo sitio, clickee en Test Extendido y le informará que servidores DNS está utilizando.
+Ahora, conecte su cliente Shadowsocks y refresque el navegador. La dirección IP totalmente nueva de su servidor VPN debería aparecer. Esto es como se muestra al mundo ahora. Nuevamente, el **Test Extendido** de  [DNSLeakTest](https://www.dnsleaktest.com/) chequeará su configuración de servidores DNS y le confirmará que está utilizando los resolvedores DNS de la dVPN Veles.
 
 ***
 
-If you do, congratulations! You have now setup a Veles d-VPN . If you do not, please contact support on [Discord](https://discord.gg/P528fGg) and they will assist you.  
+Si está todo correcto. felicitaciones! Has configurado la dVPN de Veles de manera exitosa. Si no es así, por favor contacta a soporte en [Discord](https://discord.gg/P528fGg) y ellos te asistirán.  
+

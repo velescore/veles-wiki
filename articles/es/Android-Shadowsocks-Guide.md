@@ -55,7 +55,7 @@ Si requiere más ayuda por favor contacte a nuestro equipo de soporte @ [Discord
 
 ***Paso 4***  
 
-* **"Remote Port" (Puerto Remoto)** reemplazar con el Puerto Remoto de Veles **21344**
+* Reemplazar **"Remote Port" (Puerto Remoto)** con el Puerto Remoto de Veles **21344**
 
 ***
 

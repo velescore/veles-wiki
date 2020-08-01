@@ -1,4 +1,4 @@
-Name:                Guía Linux de Veles en Stunnel
+Name:                Guía Android de Veles en Stunnel
 Image:               images/download/android.png
 TipodeGuía:          Guía de usuario
 OS:                  Android
