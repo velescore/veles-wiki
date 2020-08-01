@@ -1,11 +1,8 @@
-# Mining pools
+# Pools de Minado
 
-Mining in a pool helps miners to increase probability to find a block more
-frequently as a group, and distribute shares of block rewards more quickly,
-than it would be with solo mining as usually it is not practical to solo-mine,
-not with small number of mining devices, on most of algos on Veles Core chain.
+Minar en una pool ayuda a los mineros a incrementar la probabilidad de encontrar de manera más frecuente como un grupo, y distribuir partes de la recompensa de manera más rápida de lo que sería de manera individual ya que suele no ser práctico el minado en solitario, con un número pequeño de dispositivos, en la mayoría de los algoritmos utilizados en Veles.
 
-Following mining pools support Veles mining (in alphabetical order):
+Las siguientes son pools de minado que soportan el minado de Veles (orden alfabético):
 
 Pool / Algo                                                 | Lyra2z | Nist5 | X16r | X11 | Sha256d | Scrypt
 ----------------------------------------------------------- | ------ | ----- | ---- | --- | ------- | ------
