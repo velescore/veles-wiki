@@ -1,82 +1,82 @@
 Name:               Veles OSX OpenVPN Guide
 Image:              https://www.veles.network/images/download/mac-wallet.png
-GuideType:          User's Guide
+TipoGuía:           Guía de Usuario
 OS:                 Mac OSX
 VelesdApp:          dVPN
-Protocol:           OpenVPN
-Requirements:       OpenVPN client
-Difficulty:         Easy
-EstimatedTime:      5 minutes
+Protocolo:          OpenVPN
+Requerimientos:     Cliente OpenVPN
+Dificultad:         Fácil
+TiempoEstimado:     5 minutos
 
-# OSX OpenVPN Guide 
-This will guide you through the process of installing and using Tunnelblick on the OSX platform.  
+# Guía de OpenVPN para Linux
+Esto te guiará a través del proceso de instalar y utilizar Tunnelblick en la plataforma OSX.  
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/P528fGg)
+Si requiere más ayuda por favor contacte a nuestro equipo de soporte @ [Discord](https://discord.gg/P528fGg)
 
-## Requirements
-1) **Install Tunnelblick Client**
-2) **Download Veles OpenVPN config**
+## Requerimientos
+1) **Instalar el cliente Tunnelblick**
+2) **Descargar la configuración de Veles OpenVPN**
 
-## Contents
-* **Section A**: Download and Install Tunnelblick
-* **Section B**: Configure Tunnelblick
-* **Section C**: Connect to Veles d-VPN
-* **Section D**: Test VPN Connection
+## Contenido
+* **Sección A**: Descargar e instalar Tunnelblick
+* **Sección B**: Configurar Tunnelblick
+* **Sección C**: Conectarse a la dVPN de Veles
+* **Sección D**: Testear la conexión VPN 
 ***
 
-### Section A: Download and Install Tunnelblick
+### Sección A: Descargar e instalar Tunnelblick
 
-***Step 1***  
+***Paso 1***  
 
-* Tunnelblick is a free, open source OpenVPN client for Mac OS X. You can **download the latest disk image from the [Tunnelblick Downloads page](https://tunnelblick.net/downloads.html)**. Double-click the downloaded **.dmg** file and follow the prompts to install:  
+* Tunnelblick es un cliente gratuito y open source de OpenVPN para Mac OS X. Puedes **descargar la última imagen de disco desde la [página de descargas de Tunnelblick](https://tunnelblick.net/downloads.html)**. Hacer doble click en el archivo **.dmg** descargado y seguir las instrucciones para instalar:  
 [https://tunnelblick.net/downloads.html](https://tunnelblick.net/downloads.html)  
 
-!!! tip "User Tip"
-	Towards the end of the installation process, Tunnelblick will ask if you have any configuration files. It can be easier to answer **No** and let Tunnelblick finish. 
+!!! tip "Tip de Usuario"
+	Cerca del final del proceso de instalación, Tunnelblick preguntará si tienes algún archivo de configuración. Lo más sencillo es responder **No** y dejar que Tunnelblick finalice. 
 
 ***
 
-### Section B: Configure Tunnelblick
+### Sección B: Configurar Tunnelblick
 
-***Step 1***  
+***Paso 1***  
 
-* After installing Tunnelblick, **download [Veles OpenVPN config file](https://explorer.veles.network/dapi/getOpenVPNConfig)**.  
+* Luego de instalar Tunnelblick, **descarga el [archivo de configuración de Veles OpenVPN](https://explorer.veles.network/dapi/getOpenVPNConfig)**.  
 https://explorer.veles.network/dapi/getOpenVPNConfig
 
-***Step 2***  
+***Paso 2***  
 
-* **Double-click veles.ovpn**. Tunnelblick will install the client profile.
+* **Doble click en veles.ovpn**. Tunnelblick instalará el perfil de cliente.
   
-!!! important "Important Note"
-	Administrative privileges are required.  
+!!! important "Importante"
+	Se requieren privilegios administrativos. 
 
 ***
 
-### Section C: Connect to Veles d-VPN 
+### Sección C: Conectarse a la dVPN de Veles
 
-***Step 1***  
+***Paso 1***  
 
-* Launch Tunnelblick by double-clicking **Tunnelblick** in the **Applications folder**.
+* Ejecutar Tunnelblick mediante doble click en **Tunnelblick** en la **carpeta Aplicaciones**.
 
-!!! tip "User Tip"
-	Once Tunnelblick has been launched, there will be a Tunnelblick icon in the menu bar at the top right of the screen for controlling connections.
-
-***
-
-***Step 2***  
-
-* Click on the icon, and then the **Connect** menu item to initiate the VPN connection and select the **veles** connection.  
+!!! tip "Tip de Usuario"
+	Una vez que Tunnelblick se ejecutó, habrá un ícono de Tunnelblick en la barra de menú en la esquina superior derecha de la pantalla desde donde se podrá controlar las conexiones.
 
 ***
 
-### Section D: Test VPN Connection
+***Paso 2***  
 
-***Step 1***  
-
-* Once everything is installed, a simple check confirms everything is working properly. Without having a VPN connection enabled, open a browser and go to [DNSLeakTest](https://www.dnsleaktest.com/).
-The site will return the IP address assigned by your internet service provider and as you appear to the rest of the world. To check your DNS settings through the same website, click on Extended Test and it will tell you which DNS servers you are using.
-Now connect to your VPN client and refresh the browser. The completely different IP address of your VPN server should now appear. That is now how you appear to the world. Again, [DNSLeakTest's](https://www.dnsleaktest.com/) **Extended Test** will check your DNS settings and confirm you are now using the DNS resolvers pushed by Veles dVPN.
+* Click en el +icono, y luego en  **Conectar**  para iniciar la conexión VPN y seleccionar la conexión **veles**.  
 
 ***
 
-If you do, congratulations! You have now setup a Veles d-VPN . If you do not, please contact support on [Discord](https://discord.gg/P528fGg) and they will assist you.  
+### Sección D: Testear la conexión VPN 
+
+***Paso 1***  
+
+* Una vez que todo está instalado, es sencillo confirmar que todo está funcionando apropiadamente. Sin tener la conexión VPN activada, abra su navegador y vaya a [DNSLeakTest](https://www.dnsleaktest.com/).
+El sitio le retornará la dirección IP asignada a usted por su proveedor de Internet, de la forma que el mundo lo ve. Para chequear su configuración de DNS a través del mismo sitio, clickee en Test Extendido y le informará que servidores DNS está utilizando.
+Ahora, conecte su cliente VPN y refresque el navegador. La dirección IP totalmente nueva de su servidor VPN debería aparecer. Esto es como se muestra al mundo ahora. Nuevamente, el **Test Extendido** de  [DNSLeakTest](https://www.dnsleaktest.com/) chequeará su configuración de servidores DNS y le confirmará que está utilizando los resolvedores DNS de la dVPN Veles.
+
+***
+
+Si está todo correcto, felicitaciones! Has configurado la dVPN de Veles de manera exitosa. Si no es así, por favor contacta a soporte en [Discord](https://discord.gg/P528fGg) y ellos te asistirán.   
