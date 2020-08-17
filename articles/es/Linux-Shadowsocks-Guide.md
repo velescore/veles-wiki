@@ -89,7 +89,7 @@ Si requiere más ayuda por favor contacte a nuestro equipo de soporte @ [Discord
 
 ***Paso 1***
 
-* **Para conectarte**, dimplemente ejecuta el comando **sslocal** para iniciar el cliente ShadowSocks:    
+* **Para conectarte**, simplemente ejecuta el comando **sslocal** para iniciar el cliente ShadowSocks:    
 `sslocal -c /etc/shadowsocks/config.json`  
 
 !!! tip "Tip de Usuario"
@@ -110,5 +110,5 @@ Ahora, conecte su cliente Shadowsocks y refresque el navegador. La dirección IP
 
 ***
 
-Si está todo correcto. felicitaciones! Has configurado la dVPN de Veles de manera exitosa. Si no es así, por favor contacta a soporte en [Discord](https://discord.gg/P528fGg) y ellos te asistirán.  
+Si está todo correcto, felicitaciones! Has configurado la dVPN de Veles de manera exitosa. Si no es así, por favor contacta a soporte en [Discord](https://discord.gg/P528fGg) y ellos te asistirán.  
 
