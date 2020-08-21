@@ -1,8 +1,7 @@
-# Veles Core Wiki
-The repository to maintain Veles Core wiki articles and related assets.
+# Wiki  de Veles Core
+El repositorio para mantener los artículos de la wiki de Veles Core y cosas relacionadas.
 
-## Guidelines
-The wiki articles need to be authored in [Markdown](https://daringfireball.net/projects/markdown/) format,
-see [Sytnax Documentation](https://daringfireball.net/projects/markdown/syntax) for the syntax rules,
-though there are few extensions supported on the top of the standard syntax. See [docs/](docs/) for more
-information.
+## Pautas
+Los artículos de la wiki deben ser realizados formato [Markdown](https://daringfireball.net/projects/markdown/), mira la
+[Documentación de la sintaxis](https://daringfireball.net/projects/markdown/syntax) para conocer las reglas sintácticas,
+aunque hay algunas extensiones soportados por sobre la sintáxis estándar. Vea [docs/](docs/) para más información.
