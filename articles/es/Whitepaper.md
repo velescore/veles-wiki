@@ -1,135 +1,46 @@
-Name:           Veles Core Whitepaper
+Name:           Whitepaper de Veles Core
 Image:          images/wp/veles-whitepaper-thumb.png
-Date:           Dec 9 2018
+Date:           9 Dic 2018
 Version:        1.01
 Authors:        The Veles Core Developers
-PDF:            https://github.com/velesnetwork/whitepaper/raw/master/veles-whitepaper.pdf
+PDF:            https://github.com/velesnetwork/whitepaper/raw/master/veles-whitepaper-es.pdf
 
-# Veles: Open decentralized VPN and anonymous networking ecosystem
+# Veles: Un ecosistema para VPNs abiertas descentralizadas y anonimato en red
 
-## **Abstract**
+## **RESUMEN**
 
-Veles is open-source software project that aims to help the Internet community to improve freedom
-of access to information, to prevent Internet censorship, and to improve anonymity of the
-communications on the Internet. We believe that blockchain technology, introduced by Satoshi
-Nakamoto and further advanced by many other developers, such as the Dash team which
-introduced masternode system, can help us to build more fairly distributed, reliable and robust
-networks. Existing open-source technologies for providing anonymous connection based on onionnetworking are build upon concept of simple volunteer networks. One of the main ideas behind
-blockchain is using game theory models to build self-supporting networks, where participants are
-economically incentivized to support it. We belive that merging the advantages of this new
-technological and economical concepts with years battle-proofed foundations for anonymization of
-the communications over networks already laid by thousands of cypherpunks and hackers could be
-the right way to achieve the vision of Veles project and to move the technology that helps the
-Internet community another little step forward.
+Veles es un proyecto de software open-source que apunta a ayudar a la comunidad de Internet a mejorar la libertad de acceso a la información, a prevenir la censura en Internet, y a aumentar el anonimato de las comunicaciones sobre la red. Creemos que la tecnología blockchain, introducida por Satoshi Nakamoto y luego avanzada por muchos otros desarrolladores, tales como el equipo de Dash los cuales introdujeron el sistema de nodos maestros (masternodes), pueden ayudarnos a construir redes más robustas, fiables y distribuidas de forma más justa. Las tecnologías open-source existentes para proveer conexiones anónimas basadas en ruteo onion (onion-networking) son construidas sobre el concepto de simples redes voluntarias (volunteer networks). Uno de los pilares más importantes detrás de la tecnología blockchain es el uso de modelos de teoría de juegos para construir redes autosustentables, donde los participantes
+son incentivados económicamente para soportar la red. Creemos que integrar las ventajas de estos nuevos conceptos tecnológicos y económicos con fundamentos ya establecidos por miles de hackers y cypherpunks en las áreas de anonimato de comunicaciones sobre redes, cuyas bases han sido probadas una y otra vez a lo largo de estos años, es la forma correcta de alcanzar la visión establecida para el proyecto Veles y para avanzar un poco más la tecnología que brinda soluciones a la comunidad de Internet.
 
-## **1. INTRODUCTION**
+## **1. INTRODUCCIÓN**
 
-The hypothesis and the technology behind Bitcoin and the blockchain has already been proving its
-validity for more than 10 years and even thought it has faced many challenges, they keep getting
-solved at a rapid pace. By following industry's best practices, careful project management and
-development proccesses, the Veles ecosystem can provide secure peer-to-peer blockchain and
-cryptocurrency, resistant to current common threats like 51% attacks or future threats such as the
-one posed by quantum computing, while ensuring fast transactions with minimal fees. To provide
-the network incentivisation and support it's micro-economy, Veles cryptocurrency is the cornerstone
-of the Veles ecosystem.
-To prevent censorship and improve anonymity of communication on the Internet, one of the main
-focus areas in the development of Veles project is employing tunneling protocols and virtual private
-network (VPN) techniques to create secure point-to-point or connections, utilizing SSL/TLS,
-public-key scheme and digital certificates.
+La hipótesis y la tecnología detrás de Bitcoin y blockchain ya ha probado su validez por más de 10 años y, si bien ha enfrentado muchos retos en el proceso, y nuevos surgen asiduamente, nuevas soluciones aparecen para los mismos a un paso acelerado. Mediante el uso de las mejores prácticas en la industria, y una administración de proyecto y procesos de desarrollo adecuados, Veles puede proveer un ecosistema entre pares para blockchain y de cryptomonedas seguro, resistente a amenazas comunes como ataques 51% o futuras como la presentada por la computación cuántica, al tiempo que asegura transacciones rápidas con comisiones mínimas. Para proveer el incentivo a la red y soportar su micro-economía, la cryptomoneda VLS se convierte en la piedra fundamental
+del ecosistema Veles.
+Para prevenir la censura y mejorar el anonimato de las comunicaciones en Internet, una de las áreas principales del foco en el desarrollo del proyecto Veles es la utilización de protocolos de tunelización y técnicas de redes privadas virtuales (virtual private network - VPN) para crear conexiones punto-a-punto seguras, utilizando SSL/TLS, esquemas de llave pública y certificados digitales.
 
-## **2. CONSENSUS IMPROVEMENTS**
+## **2. MEJORAS EN EL CONSENSO**
 
-Our basic strategy on improving blockchain functionality is based on upgrading the reward system,
-security and practical utility of the Proof-of-Work concept. We have attained it using the following
-technologies:
-Using multiple algorithms combined with dynamic block rewards and insta-mine protection, Veles
-upgraded miner reward system and the ability to sustain 51% attacks. This upgrade also minimizes
-attempts towards speculative mining and prevents to reward miners with "cheap coins" in such
-situations.
-Dynamic block rewards are calculated individually on the basis of each algorithm’s hashrate. Eg. if
-the X11 algorithm is at 200 GH/s while Scrypt is at 5 MH/s, the rewards in the X11 blocks will be
-ca. 0.2 VLS, while Scrypt will be rewarding miners with ca. 0.003 VLS per block. It is therefore
-impossible to favour a single algorithm compared to other less used ones.
-Multi-algorithmic mining gives a large number of miners the opportunity to mine, which in our
-opinion improves the network decentralization and reward distribution. This allows both GPU and
-ASIC miners to join the Veles network in a harmony.
-The reward distribution per algorithm is consistent across the entire network, eg. if X11
-accumulated a hashrate of 200 GH/s, the rewards will be comparable to Lyra2z at 30 MH/s. To
-successfully do a 51% attack, an attacker would have to control 51% of hashrate on each algorithm.
-Insta-mine protection works as follows: if a single algorithm hashrate will suddenly increase by
-more than 50%, the difficulty of mining will be substantially increased for several next blocks, with
-a slow difficulty bleed off. This eliminates speculative block time warps.
-An integral part of this multi-algo system is the way in which each algorithm recalculates and
-individually changes a difficulty. The difficulty settings are controlled by a dead-lock protection,
-which protects against freezing and effectively recalculates the difficulty both with sudden increases
-and drops in hashrate. This makes quick speculative mining of coins difficult as previous
-transactions are required to be confirmed first.
+Nuestra estrategia para un mejoramiento de las funcionalidades de blockchain se basa en una mejora en el sistema de recompensas, la seguridad y la utilidad práctica del concepto de Proof-of-Work. Para lograrlo hemos recurrido a las siguientes tecnologías:
+El uso de múltiples algoritmos combinado con recompensas por bloque dinámicas y protección contra el minado instantáneo (insta-mine), el sistema mejorado de recompensas de Veles y la resistencia a ataques de 51%. Esta mejora además minimiza los intentos de minado especulativo y previene el recompensar a los mineros con “monedas baratas” en tales situaciones.
+Las recompensas dinámicas por bloque son calculadas de forma individual en base al hashrate de cada algoritmo. Por ejemplo, si el algoritmo X11 tiene un hashrate de 200 GS/s mientras que Scrypt tiene uno de 5 MH/s, las recompensas para los bloques X11 será de aproximadamente 0.2 VLS, mientras que los de Scrypt serán de aproximadamente 0.003 VLS por bloque. Es por lo tanto imposible el favorecer a un algoritmo particular en comparación con aquellos menos usados.
+El minado multi-algorítmico le brinda a un gran número de mineros la oportunidad de minar, lo cual en nuestra opinión mejora la descentralización de la red y la distribución de recompensas. Esto permite que tanto mineros GPU como ASIC se unan en la red Veles en armonía. La distribución de recompensas por algoritmo es consistente en la totalidad de la red, por ejemplo si X11 acumulo un hashrate de 200 GH/s, las recompensas serán comparables a las de Lyra2z con un hashrate de 30 MH/s. Para realizar un ataque 51% de manera exitosa, un atacante necesitará tener el control del 51% del hashrate de cada algoritmo. La protección contra insta-mine funciona de la siguiente manera: si el hashrate de un algoritmo en particular de repente se incrementará más de un 50%, la dificultad de minado se incrementará significativamente para los siguientes bloques, con un decremento de dificultad lento. Esto elimina las distorsiones de tiempos de bloque especulativos. Una parte integral de ese sistema multi-algorítmico es la manera en que cada algoritmo recalcula y cambia individualmente una dificultad. La configuración de dificultad es controlada por una protección contra abrazo mortal (dead-lock), lo que protege contra el congelamiento y efectivamente recalcula la dificultad tanto ante incrementos como decrementos repentinos del hashrate. Esto hace que el minado especulativo de monedas sea dificultoso, ya que transacciones previas deben ser confirmadas primero
 
-## **3. ANONYMIZATION, TUNNELING AND VPN**
+## **3. PROVISIÓN DE ANONIMATO, TUNELIZACIÓN Y VPN**
 
-A virtual private network (VPN) technology VPN enables Internet users to circumvent georestrictions and censorship, or to connect to proxy servers to protect personal identity and location
-to stay anonymous on the Internet. However, some Internet sites block access to popular VPN
-solutions to prevent the circumvention of their geo-restrictions. Even though some commercial
-VPN providers are looking for a ways to get around this issues, they don't necessarily provide
-permanent and reliable solutions to all the Internet users.
-There are several successful strategies to get around these restrictions and to improve the anonymity
-of the communication. One of the efficient solutions is using multi-hop onion routing. To transfer
-the information in classic onion network, the originator selects a set of nodes from a list. The
-chosen nodes are arranged into a path, called a chain or circuit, through which the message will be
-transmitted. To preserve the anonymity of the sender, no node in the circuit is able to tell whether
-the node before it is the originator or another intermediary like itself. Likewise, no node in the
-circuit is able to tell how many other nodes are in the circuit and only the final node, the exit node,
-is able to determine its own location in the chain.
-Current voluntary networks such as Tor may still suffer from several weaknesses which we believe
-could be improved by implementing masternode technology based on blockchain, which draws
-from game theory models to build self-supporting and self-regulating networks, where VPN and
-onion routing services could be provided in a fair, very robust, safe and reliable manner.
-The concept of masternodes extends the blockchain with secondary network, called the masternode
-network. These nodes will have high availability and provide a required level of service to the
-network and have a bond of collateral to participate, in order earn their payment in Veles
-cryptocurrency. These can provide any number of extra services to the network. On the other hand,
-the collateral and the requirement for a high availability will discourage bad actors to participate.
-The concept of Masternode Network has been introduced in the Dash Whitepaper, and as a proofof-concept, it's first implementation included PrivateSend and InstantSend.
-Veles network will further build on the Proof-Of-Service concept and masternode network system
-introduced by Dash by integrating it with robust open-source technologies such as OpenVPN,
-which is a full-featured open source SSL VPN server and client software / library that is supported 
-by a wide range of clients, including iPhone, Android, Windows, Linux, MacOSX platforms. The
-OpenVPN security model is based on SSL, the industry standard for secure communications via the
-internet. OpenVPN implements OSI layer 2 or 3 secure network extension using the SSL/TLS
-protocol, supports flexible client authentication methods based on digital client certificates and uses
-an industrial-strength security model designed to protect against both passive and active attacks.
-Veles masternodes system also introduces II. Tier masternode network to provide function of exit
-nodes. These nodes will require only half of the collateral of the full I. Tier masternode but will also
-require substantially less computing power and memory resources, only providing network
-bandwidth and functioning as multi-hop routers or exit nodes to enable onion-like circuits. These
-nodes could be run on number of devices including those with low resources such as Raspberry Pi.
-Users willing to improve degree of anonymity of their communications will be able to choose any
-required number of so-called hops to route their traffic through.
-To ensure the best availability, speed, fairness of the service and to discourage DDoS-like attacks
-each VPN user will need to pay a low and affordable fee in Veles cryptocurrency in order to obtain
-an access to the VPN service, so that the network cannot be easily misused. For sufficient
-anonymity of a payment for the VPN service the transaction won’t be sent directly to the node
-operators but rather to the so-called burn address. The node operators regularly receive their fair
-rewards for providing the required level of service in a consistent manner independently of fees
-paid by the users. Our goal is to keep this fee as low as possible just to maintain it’s anti-spam and
-counter-misuse role.
-This strategy can also help to prevent centralization as the network will discourage participants to
-build fewer powerful nodes but will rather encourage them to increase the number of nodes
-enabling grater diversity and decentralization of the ecosystem. The plan of burning VLS fees for
-VPN use will also help the micro-economy by either decreasing emission rate of VLS or even
-possibly decreasing number VLS in the circulation, helping the cryptocurrency to better keep it's
-value over time.
+La tecnología de red privada virtual (virtual private netwotk - VPN) permite a los usuarios de Internet evitar restricciones geográficas y censura, o conectarse a servidores proxy para proteger su identidad y que sus datos de geolocalización permanezcan anónimos en Inernet. Sin embargo, algunos sitios de Internet bloquean el accesso a soluciones populares de VPN para prevenir la evasión de restricciones geográficas. Incluso cuando algunos proveedores de VPN se encuentran en búsqueda de soluciones a ésto, ellos no necesariamente proveen de soluciones permanentes y confiables a todos los usuarios de Internet. Hay estrategias exitosas para salvar estas restricciones y mejorar el anonimato en la comunicación. Una de las soluciones eficientes es el uso de saltos múltiples en ruteo onion (multi-hop onion routing). Para transferir la información en redes onion clásicas, el originante selecciona un conjunto de nodos de
+una lista. Se establece un camino en base a los nodos elegidos, denominado cadena o circuito, a través del cual el mensaje será transmitido. Para preservar el anonimato del emisor, ningún nodo en el circuito puede establecer si el nodo anterior del cual recibió el paquete es el emisor original u otro intermediario como él. De la misma forma, ningún nodo sabe cual es la cantidad de nodos en el circuito y solamente el nodo final, llamado nodo de salida, puede determinar
+su propia ubicación dentro del circuito.
+Redes voluntarias actuales como Tor pueden todavia sufrir de diversas debilidades que nosotros creemos que pueden ser atacadas mediante la implementación de tecnología masternade basada en blockchain, la cual toma conceptos de los modelos de teoría de juegos para construir redes autosustentables y autoreguladas, donde servicios de VPN y ruteo onion puedan ser provistos de manera justa, robusta, segura y fiable. El concepto de masternodes extiende blockchain con una red secundaria, llamada la red de masternodes. Estos nodos tendrán una alta disponibilidad y proveerán un nivel de servicio requerido a la red y tendrán un colateral para participar, para ganarse su pago en la moneda de Veles. Estos masternodes pueden proveer un sinnúmero de servicios extra a la red. Por el otro lado, tanto el colateral como el requerimiento de una gran disponibilidad desalentarán a actores malos a participar. El concepto de red de masternodes
+fue introducido en el whitepaper de Dash, y como una prueba de concepto, su primer implementación incluyó PrivateSend e InstaSend.
+La red Veles avanzará sobre el concepto de Proof-Of-Service y el sistema de redes de masternodes introducido por el equipo de Dash mediante su integración con robustas tecnologías de código abierto tales como OpenVPN, el cual es un servidor SSL VPN open source y cliente software/libreria soportado por un amplio rango de clientes, incluyendo iPhone, Android, Windows, Linux, FreeBSD o macOS. El modelo de seguridad OpenVPN está basado en SSL, el estándar de la
+industria para comunicaciones vía Internet. OpenVPN implementa extensiones de seguridad de redes en las capas 2 y 3 del modelo OSI utilizando el protocolo SSL/TLS, soporta métodos para autenticación de cliente flexible basado en certificados de cliente digitales y usa un modelo de seguridad de nivel industrial diseñado para proteger tanto contra ataques pasivos como activos.
+El sistema de masternodes de Veles también introduce la red de masternodes de nivel II para proveer la función de nodos de salida. Estos nodos requerirán sólo la mitad del colateral del nodo completo de nivel I pero también requerirán un poder de cómputo y recursos de memoria sustancialmente menores, sólo proveyendo ancho de banda y funcionando como enrutadores de multi-salto o nodos de salida para construir circuitos similares a los de la red onion. Estos nodos podrán ser ejecutados en un gran número de dispositivos incluyendo aquellos con pocos recursos tales como los Raspberry Pi. Usuarios dispuestos a incrementar el nivel de anonimato en sus comunicaciones podrán escoger el número que deseen de saltos para enrutar su tráfico.
+Para asegurar la mejor disponibilidad, velocidad, ecuanimidad del servicio y desalentar ataques del estilo de DDoS cada usuario de VPN deberá pagar una pequeña comisión en la cryptomoneda del ecosistema Veles para de esta forma acceder al servicio de VPN, de forma que la red no sea fácilmente usada incorrectamente.
+Para conseguir el suficiente anonimato en el pago del servicio VPN la transacción no será enviada directamente a los nodos operadores sino a una dirección especial de destrucción de monedas (burn address). Los operadores de nodos reciben regularmente su proporción ecuánime de recompensas por proveer el nivel de servicio requerido de forma consistente, independientemente de las comisiones pagadas por los usuarios. Nuestro objetivo es mantener estas comisiones tan bajas como sea posible solo para mantener su rol como sistema anti-spam y de desaliento de uso incorrecto de la red.
+Esta estrategia puede también ayudar a prevenir la centralización ya que la red desalentará a los participantes a crear unos pocos nodos muy poderosos, y en lugar de esto alentará a los mismos a incrementar el número de nodos aumentando la diversidad y la descentralización del ecosistema. El plan de destruir las comisiones VLS pagadas para obtener servicio VPN ayudará a su vez a la micro-economía del ecosistema ya sea mediante un decremento de la tasa de emisión de VLS o incluso posiblemente decrementando el número de VLS en circulación, ayudando a la cryptomoneda a mantener su valor a través del tiempo.
 
-## **4. THE VISION**
+## **4. LA VISION**
 
-Our vision is to build and bootstrap successful self-incentivized, self-supporting and self-governing
-decentralized network and ecosystem providing robust, reliable and safe VPN and anonymization
-services to the Internet users, taking advantage of up-to-date technology and best-practices, to build
-open ecosystem governed by the community resistant to the censorship, which we believe could be
-far more efficient than conventional voluntary or proprietary solutions mentioned earlier. This
-whitepaper is intended to only show direction of this project and to explain our goals. The purpose
-of the Veles team is to bootstrap and guard all the processes involved in the development and
-management of the Veles ecosystem until the network will be mature enough and will reach the
-final stage when the right open-governance, project management and development processes will be
-well-established and tested to the degree that the ecosystem could be ultimately put solely into the
-hands of the community, guided by smart-contracts and algorithms.
+Nuestra visión es la de construir e impulsar redes y ecosistemas descentralizados auto-incentivados, auto-soportados y auto-gobernados proveyendo servicios de VPN y anonimato robustos, confiables y seguros a los usuarios de Internet, aprovechando tecnologías de punta y mejores prácticas, para construir un ecosistema abierto gobernado por la comunidad, resistente a la censura, los que creemos que serán más eficientes que las soluciones convencionales de redes
+de voluntarios o propietarias mencionadas anteriormente. La idea del presente whitepaper es solamente mostrar la dirección del proyecto y explicar nuestros objetivos. Es el propósito del equipo Veles el de impulsar y salvaguardar todos los procesos involucrados en el desarrollo y administración del ecosistema Veles hasta que la red sea lo suficientemente madura y haya alcanzado la fase final donde el gobierno abierto, administración de proyecto y procesos de desarrollo estarán bien establecidos y testeados al punto que el ecosistema pueda ser dejado
+definitivamente en las manos de la comunidad, guiado por contratos inteligentes y algoritmos.
