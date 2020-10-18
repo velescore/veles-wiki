@@ -1,108 +1,112 @@
 Name:               Veles Windows Obfsproxy Guide
 Image:              https://www.veles.network/images/download/windows-wallet.png
-GuideType:          User's Guide
+TipoGuía:    		User's Guide
 OS:                 Windows
 VelesdApp:          dVPN
-Protocol:           Obfsproxy, OpenVPN
-Requirements:       Obfsproxy, OpenVPN client
-Difficulty:         Easy
-EstimatedTime:      5 minutes
+Protocolos:         Obfsproxy, OpenVPN
+Requerimientos:     Obfsproxy, cliente OpenVPN
+Dificultad:         Fácil
+TiempoEstimado:     5 minutos
 
-# Window Obfsproxy Guide
-This explains the process of installing Obfsproxy as a client in Windows.
+# Guía de Obfsproxy para Windows
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/P528fGg)
+Esta guía explica el proceso de instalación de Obfsproxy como cliente en Windows.
 
-## Requirements
-1) **Succesfully installed [[Windows OpenVPN Guide]]**  
-2) **Install Obfsproxy**  
-3) **Download Veles shieled OpenVPN config**  
+Si requiere más ayuda por favor contacte a nuestro equipo de soporte @ [Discord](https://discord.gg/P528fGg)
 
-## Contents
-* **Section A**: Download and Install Obfsproxy
-* **Section B**: Configure Obfsproxy
-* **Section C**: Connect Veles d-VPN with Obfsproxy
-* **Section D**: Test VPN Connection
+## Requirimientos
+
+1) **Tener instalado [[Guía de OpenVPN para Windows]]**  
+2) **Instalar Obfsproxy**   
+3) **Descargar la configuración de Shielded OpenVPN para Veles** 
+
+## Contenido
+
+* **Sección A**: Descargar e instalar Obfsproxy
+* **Sección B**: Configurar Obfsproxy
+* **Sección C**: Conectarse a la dVPN de Veles con Obfsproxy
+* **Sección D**: Testear la conexión VPN 
 ***
 
-### Section A: Download and Install Obfsporxy
+### Sección A: Descargar e instalar Obfsproxy
 
-***Step 1***  
+***Paso 1***  
 
-* Now we are going build Obfsproxy. **Obfsproxy requires Python**, an open source programming language, so you’ll need to download it. Go to [python.org](https://www.python.org/downloads/) and **download version 2.7 and install** it accepting all the defaults:   
+* Comenzaremos con Obfsproxy. **Obfsproxy requiere Python**, un lenguaje de programación de código abierto, por lo que deberás descargarlo. Vé a [python.org](https://www.python.org/downloads/) y **descarga e instala la versión 2.7** utilizando la configuración por defecto:   
 [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 ***
 
-***Step 2***  
+***Paso 2***  
 
-* You’ll also **need to get Visual C for Python**, which you can **download from [http://aka.ms/vcpython27](http://aka.ms/vcpython27)**, once you have downloaded it, install it with the default options:  
+* También **necesitarás Visual C para Python**, el cuál puedes **descargar desde [http://aka.ms/vcpython27](http://aka.ms/vcpython27)**. Una vez que lo hayas descargado, instálalo con la configuración por defecto:  
 
 ***
 
-***Step 3***  
+***Paso 3***  
 
-* Ok now that you have Python installed, you’re ready to get obfsproxy. Open a CMD shell window and **go to C:Python27Scripts** by typing :  
+* Ya con Python instalado, estás en condiciones de instalar Obfsproxy. Abrir una consola de comandos y **vé a C:Python27Scripts** mediante :  
 `cd C:\Python27\Scripts`
 
 ***
 
-***Step 4***  
+***Paso 4***  
 
-* Now we will **install Obfsproxy** by typing:  
+* Ahora **instalaremos Obfsproxy** mediante:  
 `pip install obfsproxy`  
 
-!!! tip "User Tip"
-	This will download the various requisite modules and build obfsproxy – it might take a few minutes…… Once complete, you should have the **obfsproxy.exe** executable in **C:Python27Scripts**  
+!!! tip "Tip de Usuario"
+	Ésto descargará varios módulos requeridos y creará el ejecutable de obfsproxy – puede demorar unos minutos…… Una vez completo, deberías tener el ejecutable **obfsproxy.exe** en **C:Python27Scripts**  
 
 ***
 
-### Section B: Configure Obfsproxy
+### Sección B: Configurar Obfsproxy
 
-***Step 1***  
+***Paso 1***  
 
-* After installing Obfsproxy **download [Shielded OpenVPN config](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig)** from this URL:  
-[https://explorer.veles.network/dapi/getShieldedOpenVPNConfig](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig)  
+* **Descarga el [archivo de configuración de Stunnel para Veles](https://explorer.veles.network/dapi/getShieldedOpenVPNConfig)** mediante:    
+`wget https://explorer.veles.network/dapi/getShieldedOpenVPNConfig` 
 
 ***
   
-***Step 2***  
+***Paso 2***  
 
-* Move downloaded **veles-shielded.ovpn** config to it's repository:    
-`C:\Program Files\OpenVPN\config\`    
+* **Mover el archivo de configuración descargado veles-shielded.ovpn a sus repositorios** en:    
+`C:\Program Files\OpenVPN\config\`
 
 ***
 
-### Section C: Connect Veles d-VPN with Obfsproxy
+### Sección C: Conectarse a la dVPN de Veles con Veles Stunnel
 
-***Step 1***  
+***Paso 1***   
 
-* Open a CMD shell window and **go to C:Python27Scripts** by typing:  
+* Abrir una consola de comandos e **ir a C:Python27Scripts** mediante:  
 `cd C:\Python27\Scripts`    
 
 ***
 
-***Step 2***  
+***Paso 2***  
 
-* **Start Obfsproxy** by typing:  
+* **Start Obfsproxy** mediante:  
 `obfsproxy scramblesuit --dest 80.211.132.243:21343 --password=SSSTIZ3LG5SSS43OMSSSM4LKGQFASSSS client 127.0.0.1:21337`  
 
-!!! tip "User Tip"
-	The destination IP address (in this case --dest 80.211.132.243) should be replaced with **IP of masternode** you are connecting.    
+!!! tip "Tip de Usuario"
+	La IP de destino (en este caso --dest 80.211.132.243) deberá ser reemplazada con la **IP del masternode** al que te estás conectando.    
 
-!!! caution "Experimental Warning"
-	The password will be used only in pre-alpha testing phase. In future instead of password will be used random string.  
-
-***
-
-### Section D: Test VPN Connection
-
-***Step 1***  
-
-* Once everything is installed, a simple check confirms everything is working properly. Without having a VPN connection enabled, open a browser and go to [DNSLeakTest](https://www.dnsleaktest.com/).
-The site will return the IP address assigned by your internet service provider and as you appear to the rest of the world. To check your DNS settings through the same website, click on Extended Test and it will tell you which DNS servers you are using.
-Now connect to your VPN client and refresh the browser. The completely different IP address of your VPN server should now appear. That is now how you appear to the world. Again, [DNSLeakTest's](https://www.dnsleaktest.com/) **Extended Test** will check your DNS settings and confirm you are now using the DNS resolvers pushed by Veles dVPN.
+!!! caution "Advertencia: Experimental"
+	La contraseña será utilizada en la fase de testeo pre-alpha. En el futuro en lugar de password se utilizará un string aleatorio. 
 
 ***
 
-If you do, congratulations! You have now setup a . If you do not, please contact support on [Discord](https://discord.gg/P528fGg) and they will assist you.  
+### Sección D: Testear la conexión VPN 
+
+***Paso 1***  
+
+* Una vez que todo está instalado, es sencillo confirmar que todo está funcionando apropiadamente. Sin tener la conexión VPN activada, abra su navegador y vaya a [DNSLeakTest](https://www.dnsleaktest.com/).
+El sitio le retornará la dirección IP asignada a usted por su proveedor de Internet, de la forma que el mundo lo ve. Para chequear su configuración de DNS a través del mismo sitio, clickee en Test Extendido y le informará que servidores DNS está utilizando.
+Ahora, conecte su cliente VPN y refresque el navegador. La dirección IP totalmente nueva de su servidor VPN debería aparecer. Esto es como se muestra al mundo ahora. Nuevamente, el **Test Extendido** de  [DNSLeakTest](https://www.dnsleaktest.com/) chequeará su configuración de servidores DNS y le confirmará que está utilizando los resolvedores DNS de la dVPN Veles.
+
+***
+
+Si está todo correcto. felicitaciones! Has configurado la dVPN de Veles de manera exitosa. Si no es así, por favor contacta a soporte en [Discord](https://discord.gg/P528fGg) y ellos te asistirán.   
+
