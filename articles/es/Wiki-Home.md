@@ -1,35 +1,34 @@
 Name:                 Veles Core Wiki
 Image:                /images/logo/veles256.png
 Url:                  https://veles.network
-Description:          Project's open knowledge base  
-ContentLicense:       GPLv3
-ProgrammingLanguage:  Python
-Syntax:               Markdown
+Descripcion:          Project's open knowledge base  
+LicenciaContenido:    GPLv3
+LenguajeProgramacion  Python
+Sintaxis:             Markdown
 Docs:                 https://git.veles.network/velesnetwork/veles-wiki/src/branch/master/docs
 
-# Veles Core Wiki
-Welcome to the Veles Core Wiki! This is the official knowledge base for the Veles Core project.
-For complete list of the articles with their descriptions see page [[All Articles]]. 
-You can also start by reading pinned articles from below or by typing a keyword into the search box.
+# Wiki de Veles Core
+Bienvenido a la Wiki de Veles Core! Esta es la base de conocimiento oficial para el proyecto Veles Core.
+Para ver una lista completa de los articulos con sus descripciones vea la página [[Todos los Articulos]]. 
+También puedes comenzar leyendo los artículos listados debajo o buscando por palabras clave en el campo de búsqueda.
 
-## Guides
-- [[dVPN Setup Guide]]			List of tutorials how to set-up client software to use Veles dVPN 
-- [[Masternode Setup Guide]]	Guide on how to set-up Veles Core masternode gen 1 (current stable).
+## Guías
+- [[Guía de Setup de dVPN]]		Lista de tutoriales para configurar software cliente para utilizar la dVPN de Veles. 
+- [[Guía de Setup de Masternode]] Guía acerca de cómo configurar un masternode de Gen 1 de Veles Core (estable actualmente).
 
-## Other Pinned Articles:  
-- [[Coin Specifications]]
+## Otros artículos:  
+- [[Especificaciones de la Moneda]]
 - [[Exchanges]]
-- [[Mining Pools]]
-- [[External Services]]
+- [[Pools de Minado]]
+- [[Servicios Externos]]
 - [[Whitepaper]]
 
-## Contribution
-Everyone is welcome to contribute your changes to the official git repository
-either on GitHub [github.com/velescore/veles-wiki](https://github.com/velescore/veles-wiki)
-or on our community git interface at 
+## Contribución
+Todos son bienvenidos a contribuir sus cambios al repositorio oficial ya sea en Github [github.com/velescore/veles-wiki](https://github.com/velescore/veles-wiki)
+o en nuestra interfaz comunitaria de git en 
 [git.veles.network/velescore/veles-wiki](https://git.veles.network/velescore/veles-wiki).
-More information on contributing can be found in 
-[this document](https://github.com/velescore/veles-wiki/blob/master/docs/CONTRIBUTING.md).
+Puede encontrar más información en
+[éste documento](https://github.com/velescore/veles-wiki/blob/master/docs/CONTRIBUTING.md).
 
-Check [Veles Core Wiki documentation](https://github.com/velescore/veles-wiki/tree/master/docs) 
-for guidelines about writing Veles Core Wiki articles.
+Chequear la [documentación de la Wiki de Veles Core](https://github.com/velescore/veles-wiki/tree/master/docs) 
+para encontrar lineamientos acerca de escribir artículos en la Wiki de Veles Core Wiki.
