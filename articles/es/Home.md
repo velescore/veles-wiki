@@ -8,13 +8,13 @@ Sintaxis:             Markdown
 Docs:                 https://git.veles.network/velesnetwork/veles-wiki/src/branch/master/docs
 
 # Wiki de Veles Core 
-Bienvenido a la Wiki de Veles Core! Esta es la base de conocimiento oficial del proyecto Veles Core, es bienvenido a colaborar con la misma.
+Bienvenido a la Wiki de Veles Core! Esta es la base de conocimiento oficial del proyecto Veles Core. Todos son bienvenidos a colaborar con la misma.
 
 !!! caution "Advertencia: Experimental"
     Esta wiki se encuentra en etapa experimental y bajo desarrollo
 
 !!! tip "Tip de Desarrollo"
-    Algunas características experimentales que no han sido documentadas todavia pueden ser chequeadas en el código fuente de esta página.
+    Algunas características experimentales que no han sido documentadas todavía pueden ser analizadas en el código fuente de esta página.
 
 ![Veles Core](/images/logo/veles256.png "Figura 1: Logo Veles Core")
 
@@ -34,7 +34,7 @@ Unidades máximas:        | **2 500 000 VLS**
 Preminado (swap):        | **50 000 VLS** 
 Colateral de Masternode: | **500 VLS**  
 
-***Billetera de Desarrolladores***  
+***Billetera del Equipo de Desarrollo***  
 
 * [VKtig9w7wfx6Ep9B4NnbwxLj1bkY2kHXBj](https://explorer.veles.network/address/VKtig9w7wfx6Ep9B4NnbwxLj1bkY2kHXBj)  
 
